@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agroecology Investment Directory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --soil: #2C1A0E;
+      --bark: #5C3D1E;
+      --moss: #4A6741;
+      --sage: #7A9E6F;
+      --straw: #E8D9B0;
+      --cream: #F5F0E8;
+      --light: #FDFAF5;
+      --accent: #C17F2A;
+      --text: #1E1208;
+      --muted: #7A6A55;
+      --border: #D4C4A0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: var(--light);
+      color: var(--text);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--soil);
+      color: var(--cream);
+      padding: 3rem 2rem 2.5rem;
+      border-bottom: 4px solid var(--accent);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .site-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--sage);
+      margin-bottom: 0.75rem;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 600;
+      line-height: 1.15;
+      color: var(--cream);
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      color: var(--straw);
+      max-width: 680px;
+      font-weight: 300;
+    }
+
+    .header-meta {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .meta-pill {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 20px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.82rem;
+      color: var(--straw);
+    }
+
+    /* ABOUT SECTION */
+    .about-bar {
+      background: var(--moss);
+      color: var(--cream);
+      padding: 1.25rem 2rem;
+    }
+
+    .about-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .about-inner strong {
+      font-size: 0.78rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--straw);
+      flex-shrink: 0;
+    }
+
+    .about-inner p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.85);
+      font-weight: 300;
+    }
+
+    /* CONTROLS */
+    .controls {
+      max-width: 1100px;
+      margin: 2rem auto 0;
+      padding: 0 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .controls label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-right: 0.25rem;
+    }
+
+    .controls select {
+      border: 1px solid var(--border);
+      background: white;
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.88rem;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .count-badge {
+      margin-left: auto;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    /* GRID */
+    .grid {
+      max-width: 1100px;
+      margin: 1.5rem auto 4rem;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* CARD */
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 6px 24px rgba(44,26,14,0.1);
+    }
+
+    .card-header {
+      padding: 1.4rem 1.5rem 1rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--cream);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--soil);
+      line-height: 1.3;
+    }
+
+    .alignment-badge {
+      flex-shrink: 0;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+    }
+
+    .badge-explicit {
+      background: #E8F5E1;
+      color: #2D6A1F;
+      border: 1px solid #A8D99A;
+    }
+
+    .badge-aligned {
+      background: #FFF4E0;
+      color: #8A5A00;
+      border: 1px solid #E8C87A;
+    }
+
+    .badge-adjacent {
+      background: #F0F0F0;
+      color: #555;
+      border: 1px solid #CCC;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.6rem;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.2rem 0.6rem;
+      color: var(--muted);
+    }
+
+    .tag.geo { border-color: #A8C8A8; color: var(--moss); background: #F0F6EF; }
+    .tag.type { border-color: #C8B8A0; color: var(--bark); background: #F8F2EA; }
+
+    /* CARD BODY */
+    .card-body {
+      padding: 1.2rem 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .summary {
+      font-size: 0.9rem;
+      color: #3A2A18;
+      line-height: 1.65;
+    }
+
+    /* STATS ROW */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+    }
+
+    .stat {
+      background: var(--cream);
+      border-radius: 6px;
+      padding: 0.6rem 0.75rem;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--bark);
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      display: block;
+      margin-top: 0.1rem;
+    }
+
+    /* DETAILS SECTIONS */
+    .detail-section {
+      border-top: 1px solid var(--border);
+      padding-top: 0.9rem;
+    }
+
+    .detail-title {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.35rem 1rem;
+    }
+
+    .detail-item {
+      font-size: 0.83rem;
+    }
+
+    .detail-item .key {
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    .detail-item .val {
+      color: var(--text);
+      font-weight: 400;
+    }
+
+    /* PRINCIPLES PILLS */
+    .principles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .principle-pill {
+      font-size: 0.72rem;
+      background: #EEF5EC;
+      color: var(--moss);
+      border: 1px solid #C0D8BB;
+      border-radius: 10px;
+      padding: 0.2rem 0.55rem;
+    }
+
+    /* PORTFOLIO */
+    .portfolio-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .portfolio-item {
+      font-size: 0.83rem;
+      padding: 0.5rem 0.75rem;
+      background: var(--cream);
+      border-radius: 6px;
+      border-left: 3px solid var(--sage);
+    }
+
+    .portfolio-item .p-name {
+      font-weight: 600;
+      color: var(--bark);
+    }
+
+    .portfolio-item .p-country {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-left: 0.4rem;
+    }
+
+    .portfolio-item .p-desc {
+      color: var(--muted);
+      margin-top: 0.2rem;
+      font-size: 0.8rem;
+    }
+
+    /* QUOTE */
+    .quote-block {
+      border-left: 3px solid var(--accent);
+      padding: 0.6rem 0.9rem;
+      background: #FFFBF2;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .quote-block p {
+      font-style: italic;
+      font-size: 0.85rem;
+      color: var(--bark);
+      line-height: 1.55;
+    }
+
+    .quote-block cite {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 0.35rem;
+      font-style: normal;
+    }
+
+    /* CARD FOOTER */
+    .card-footer {
+      padding: 0.8rem 1.5rem;
+      border-top: 1px solid var(--border);
+      background: var(--cream);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .sources-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .source-link {
+      font-size: 0.75rem;
+      color: var(--moss);
+      text-decoration: none;
+      border-bottom: 1px solid var(--sage);
+    }
+
+    .source-link:hover { color: var(--bark); }
+
+    .verified-date {
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    /* EXPAND TOGGLE */
+    .toggle-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.35rem 0.8rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s;
+    }
+
+    .toggle-btn:hover {
+      background: var(--cream);
+      color: var(--bark);
+    }
+
+    .expandable { display: none; }
+    .expandable.open { display: block; }
+
+    /* EMPTY STATE */
+    .empty {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--soil);
+      color: var(--straw);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.82rem;
+    }
+
+    footer a { color: var(--sage); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; padding: 0 1rem; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .detail-grid { grid-template-columns: 1fr; }
+      header { padding: 2rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-label">Living Reference Directory</div>
+    <h1>Agroecology Investment Directory</h1>
+    <p>A curated reference of funds, cooperatives, and investment vehicles with portfolio activity aligned to agroecological principles. Updated as new funds are identified.</p>
+    <div class="header-meta">
+      <span class="meta-pill" id="fund-count-pill">— funds documented</span>
+      <span class="meta-pill">Last updated: May 2026</span>
+      <span class="meta-pill">Inclusion: any portfolio agroecology alignment</span>
+    </div>
+  </div>
+</header>
+
+<div class="about-bar">
+  <div class="about-inner">
+    <strong>About</strong>
+    <p>Funds are included if any part of their portfolio follows agroecological principles — explicit mandates, aligned strategies, or adjacent practices. Alignment is noted on each entry. This is a learning resource, not investment advice.</p>
+  </div>
+</div>
+
+<div class="controls">
+  <label for="filter-region">Region</label>
+  <select id="filter-region">
+    <option value="">All regions</option>
+  </select>
+
+  <label for="filter-alignment">Alignment</label>
+  <select id="filter-alignment">
+    <option value="">All alignment levels</option>
+    <option value="explicit mandate">Explicit mandate</option>
+    <option value="aligned">Aligned</option>
+    <option value="adjacent">Adjacent</option>
+  </select>
+
+  <label for="filter-type">Type</label>
+  <select id="filter-type">
+    <option value="">All types</option>
+  </select>
+
+  <span class="count-badge" id="visible-count"></span>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  <p>Agroecology Investment Directory &middot; Data sourced from public records, fund websites, and impact media &middot; <a href="funds.json">View raw data (JSON)</a></p>
+</footer>
+
+<script>
+  function fmt(n) {
+    if (n == null) return '—';
+    if (n >= 1e9) return '$' + (n/1e9).toFixed(1) + 'B';
+    if (n >= 1e6) return '$' + (n/1e6).toFixed(1) + 'M';
+    if (n >= 1e3) return '$' + (n/1e3).toFixed(0) + 'K';
+    return '$' + n;
+  }
+
+  function fmtPeople(n) {
+    if (n == null) return '—';
+    if (n >= 1e6) return (n/1e6).toFixed(1) + 'M+';
+    if (n >= 1e3) return (n/1e3).toFixed(0) + 'K+';
+    return n.toLocaleString();
+  }
+
+  function fmtHectares(n) {
+    if (n == null) return '—';
+    if (n >= 1e6) return (n/1e6).toFixed(1) + 'M ha';
+    if (n >= 1e3) return (n/1e3).toFixed(0) + 'K ha';
+    return n + ' ha';
+  }
+
+  function badgeClass(alignment) {
+    if (!alignment) return '';
+    const a = alignment.toLowerCase();
+    if (a.includes('explicit')) return 'badge-explicit';
+    if (a.includes('aligned')) return 'badge-aligned';
+    return 'badge-adjacent';
+  }
+
+  function capitalize(s) {
+    if (!s) return '';
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+
+  function buildCard(fund) {
+    const geo = fund.geography;
+    const fin = fund.financial;
+    const ag = fund.agroecology_alignment;
+    const imp = fund.impact;
+    const port = fund.portfolio;
+    const gov = fund.governance_and_partners;
+    const ctx = fund.context;
+
+    const regions = geo.target_regions || [];
+    const countries = geo.countries_of_operation || [];
+
+    const ticketRange = (fin.ticket_size_min_usd || fin.ticket_size_max_usd)
+      ? (fin.ticket_size_min_usd && fin.ticket_size_max_usd
+          ? fmt(fin.ticket_size_min_usd) + ' – ' + fmt(fin.ticket_size_max_usd)
+          : fmt(fin.ticket_size_min_usd || fin.ticket_size_max_usd))
+      : '—';
+
+    const principles = (ag.principles_represented || []).slice(0, 6);
+    const portfolio = (port.notable_organizations || []).slice(0, 4);
+    const quotes = (ctx.notable_quotes || []).slice(0, 1);
+    const sources = (ctx.sources || []);
+    const funders = (gov.key_funders || []);
+    const partners = (gov.partner_organizations || []);
+    const certs = (ag.certifications_referenced || []);
+    const vcPositions = (port.value_chain_positions || []);
+
+    const cardId = 'card-' + fund.name.replace(/\s+/g, '-').toLowerCase();
+
+    return `
+    <div class="card" data-regions="${regions.join('|').toLowerCase()}" data-alignment="${(ag.explicitness||'').toLowerCase()}" data-type="${(fund.legal_structure||'').toLowerCase()}">
+      <div class="card-header">
+        <div class="card-top">
+          <h2>${fund.name}</h2>
+          <span class="alignment-badge ${badgeClass(ag.explicitness)}">${capitalize(ag.explicitness) || 'Unknown'}</span>
+        </div>
+        <div class="card-meta">
+          ${regions.map(r => `<span class="tag geo">${r}</span>`).join('')}
+          ${fund.legal_structure ? `<span class="tag type">${fund.legal_structure}</span>` : ''}
+          ${fund.founded ? `<span class="tag">Est. ${fund.founded}</span>` : ''}
+        </div>
+      </div>
+
+      <div class="card-body">
+
+        <p class="summary">${ctx.summary || '—'}</p>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value">${fmt(fin.total_disbursed_usd || fin.fund_size_usd)}</span>
+            <span class="stat-label">${fin.total_disbursed_usd ? 'Disbursed' : 'Fund size'}</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">${fmtPeople(imp.people_families_reached)}</span>
+            <span class="stat-label">People reached</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">${fmtHectares(imp.hectares_preserved_restored)}</span>
+            <span class="stat-label">Ha preserved</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <div class="detail-title">Financial Details</div>
+          <div class="detail-grid">
+            <div class="detail-item"><span class="key">Manager</span><br><span class="val">${fund.manager || '—'}</span></div>
+            <div class="detail-item"><span class="key">HQ</span><br><span class="val">${geo.hq || '—'}</span></div>
+            <div class="detail-item"><span class="key">Ticket size</span><br><span class="val">${ticketRange}</span></div>
+            <div class="detail-item"><span class="key">Interest rate</span><br><span class="val">${fin.interest_rate || '—'}</span></div>
+            <div class="detail-item"><span class="key">Investor access</span><br><span class="val">${fin.investor_access || '—'}</span></div>
+            ${fund.website ? `<div class="detail-item"><span class="key">Website</span><br><a class="source-link" href="${fund.website}" target="_blank">${fund.website.replace('https://','')}</a></div>` : ''}
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <div class="detail-title">Agroecology Alignment</div>
+          <p style="font-size:0.85rem; color:var(--text); margin-bottom:0.6rem;">${ag.mandate_description || '—'}</p>
+          ${principles.length ? `<div class="principles">${principles.map(p => `<span class="principle-pill">${p}</span>`).join('')}</div>` : ''}
+          ${certs.length ? `<p style="font-size:0.78rem;color:var(--muted);margin-top:0.5rem;">Certifications: ${certs.join(', ')}</p>` : ''}
+        </div>
+
+        ${vcPositions.length ? `
+        <div class="detail-section">
+          <div class="detail-title">Value Chain Positions</div>
+          <div class="principles">${vcPositions.map(v => `<span class="principle-pill" style="background:#F2F0F8;color:#5A4A7A;border-color:#C0B8DC;">${v}</span>`).join('')}</div>
+        </div>` : ''}
+
+        <button class="toggle-btn" onclick="toggleExpand('${cardId}', this)">Show portfolio &amp; governance ↓</button>
+
+        <div class="expandable" id="${cardId}">
+
+          ${portfolio.length ? `
+          <div class="detail-section">
+            <div class="detail-title">Notable Portfolio Organizations</div>
+            <div class="portfolio-list">
+              ${portfolio.map(p => `
+              <div class="portfolio-item">
+                <span class="p-name">${p.name}</span><span class="p-country">${p.country}</span>
+                ${p.description ? `<div class="p-desc">${p.description}</div>` : ''}
+                ${p.loan_usd ? `<div class="p-desc">Loan: ${fmt(p.loan_usd)}</div>` : ''}
+              </div>`).join('')}
+            </div>
+          </div>` : ''}
+
+          ${(funders.length || partners.length) ? `
+          <div class="detail-section">
+            <div class="detail-title">Governance &amp; Partners</div>
+            ${gov.governance_model ? `<p style="font-size:0.83rem;color:var(--text);margin-bottom:0.5rem;">${gov.governance_model}</p>` : ''}
+            ${funders.length ? `<p style="font-size:0.78rem;color:var(--muted);">Key funders: ${funders.join(', ')}</p>` : ''}
+            ${partners.length ? `<p style="font-size:0.78rem;color:var(--muted);margin-top:0.25rem;">Partners: ${partners.join(', ')}</p>` : ''}
+          </div>` : ''}
+
+          ${imp.notes ? `
+          <div class="detail-section">
+            <div class="detail-title">Impact Notes</div>
+            <p style="font-size:0.83rem;color:var(--muted);">${imp.notes}</p>
+          </div>` : ''}
+
+          ${quotes.length ? `
+          <div class="detail-section">
+            ${quotes.map(q => `
+            <div class="quote-block">
+              <p>"${q.quote}"</p>
+              <cite>— ${q.attribution}</cite>
+            </div>`).join('')}
+          </div>` : ''}
+
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div class="sources-list">
+          ${sources.slice(0,3).map(s => `<a class="source-link" href="${s.url}" target="_blank">${s.publication}</a>`).join('')}
+        </div>
+        <span class="verified-date">Verified: ${fund.last_verified || '—'}</span>
+      </div>
+    </div>`;
+  }
+
+  function toggleExpand(id, btn) {
+    const el = document.getElementById(id);
+    const open = el.classList.toggle('open');
+    btn.textContent = open ? 'Hide portfolio & governance ↑' : 'Show portfolio & governance ↓';
+  }
+
+  function updateCount(visible, total) {
+    document.getElementById('visible-count').textContent = `Showing ${visible} of ${total} funds`;
+  }
+
+  let allFunds = [];
+
+  function applyFilters() {
+    const region = document.getElementById('filter-region').value.toLowerCase();
+    const alignment = document.getElementById('filter-alignment').value.toLowerCase();
+    const type = document.getElementById('filter-type').value.toLowerCase();
+    const cards = document.querySelectorAll('.card');
+    let visible = 0;
+    cards.forEach(card => {
+      const rMatch = !region || card.dataset.regions.includes(region);
+      const aMatch = !alignment || card.dataset.alignment === alignment;
+      const tMatch = !type || card.dataset.type.includes(type);
+      const show = rMatch && aMatch && tMatch;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    updateCount(visible, allFunds.length);
+  }
+
+  fetch('funds.json')
+    .then(r => r.json())
+    .then(funds => {
+      allFunds = funds;
+
+      document.getElementById('fund-count-pill').textContent = funds.length + ' funds documented';
+
+      // Populate region filter
+      const allRegions = new Set();
+      funds.forEach(f => (f.geography.target_regions || []).forEach(r => allRegions.add(r)));
+      const regionSel = document.getElementById('filter-region');
+      [...allRegions].sort().forEach(r => {
+        const opt = document.createElement('option');
+        opt.value = r.toLowerCase();
+        opt.textContent = r;
+        regionSel.appendChild(opt);
+      });
+
+      // Populate type filter
+      const allTypes = new Set();
+      funds.forEach(f => { if (f.legal_structure) allTypes.add(f.legal_structure); });
+      const typeSel = document.getElementById('filter-type');
+      [...allTypes].sort().forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.toLowerCase();
+        opt.textContent = t;
+        typeSel.appendChild(opt);
+      });
+
+      // Render cards
+      const grid = document.getElementById('grid');
+      grid.innerHTML = funds.map(buildCard).join('');
+      updateCount(funds.length, funds.length);
+
+      // Wire filters
+      ['filter-region', 'filter-alignment', 'filter-type'].forEach(id => {
+        document.getElementById(id).addEventListener('change', applyFilters);
+      });
+    })
+    .catch(err => {
+      document.getElementById('grid').innerHTML = `<div class="empty">Could not load funds.json. Make sure both files are in the same directory.<br><small>${err}</small></div>`;
+    });
+</script>
+</body>
+</html>
