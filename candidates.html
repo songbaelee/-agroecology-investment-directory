@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Pipeline — Agroecology Investment Directory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --soil: #2C1A0E; --bark: #5C3D1E; --moss: #4A6741; --sage: #7A9E6F;
+      --straw: #E8D9B0; --cream: #F5F0E8; --light: #FDFAF5; --accent: #C17F2A;
+      --text: #1E1208; --muted: #7A6A55; --border: #D4C4A0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Source Sans 3', sans-serif; background: var(--light); color: var(--text); font-size: 16px; line-height: 1.6; }
+
+    /* HEADER */
+    header { background: var(--soil); color: var(--cream); padding: 3rem 2rem 2.5rem; border-bottom: 4px solid var(--accent); }
+    .header-inner { max-width: 1100px; margin: 0 auto; }
+    .site-label { font-weight: 600; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--sage); margin-bottom: 0.75rem; }
+    .site-label a { color: var(--sage); text-decoration: none; border-bottom: 1px solid rgba(122,158,111,0.4); }
+    .site-label a:hover { color: var(--straw); }
+    header h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 600; line-height: 1.15; color: var(--cream); margin-bottom: 1rem; }
+    header p { font-size: 1.05rem; color: var(--straw); max-width: 680px; font-weight: 300; }
+    .header-meta { margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+    .meta-pill { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.82rem; color: var(--straw); }
+    .data-btn { background: transparent; border: 1px solid rgba(255,255,255,0.3); border-radius: 6px; padding: 0.3rem 0.85rem; font-size: 0.78rem; color: var(--straw); cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block; transition: all 0.15s; }
+    .data-btn:hover { background: rgba(255,255,255,0.1); color: white; }
+
+    /* ABOUT BAR */
+    .about-bar { background: var(--moss); color: var(--cream); padding: 1.25rem 2rem; }
+    .about-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+    .about-inner strong { font-size: 0.78rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--straw); flex-shrink: 0; padding-top: 0.15rem; }
+    .about-inner p { font-size: 0.9rem; color: rgba(255,255,255,0.85); font-weight: 300; }
+
+    /* FUNNEL */
+    .funnel-section { max-width: 1100px; margin: 2.5rem auto 0; padding: 0 2rem; }
+    .funnel-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--soil); margin-bottom: 0.35rem; }
+    .funnel-subtitle { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.75rem; max-width: 560px; line-height: 1.55; }
+    .funnel-rows { display: flex; flex-direction: column; gap: 0.55rem; }
+    .funnel-row { display: flex; align-items: center; gap: 0; }
+    .funnel-label { width: 260px; flex-shrink: 0; font-size: 0.85rem; color: var(--bark); text-align: right; padding-right: 1.1rem; line-height: 1.35; }
+    .funnel-label small { display: block; font-size: 0.72rem; color: var(--muted); margin-top: 0.1rem; font-weight: 300; }
+    .funnel-bar-wrap { flex: 1; position: relative; height: 36px; display: flex; align-items: center; }
+    .funnel-bar { height: 100%; border-radius: 3px; transition: width 0.5s ease; position: relative; display: flex; align-items: center; }
+    .funnel-bar-inner { position: absolute; inset: 0; border-radius: 3px; }
+    .funnel-count { margin-left: 0.85rem; font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 600; color: var(--bark); white-space: nowrap; flex-shrink: 0; min-width: 36px; }
+    .funnel-pct { font-size: 0.75rem; color: var(--muted); margin-left: 0.4rem; white-space: nowrap; }
+
+    .funnel-row.level-0 .funnel-bar-inner { background: #8FB8A0; }
+    .funnel-row.level-1 .funnel-bar-inner { background: #6A9E7A; }
+    .funnel-row.level-2 .funnel-bar-inner { background: #4A7A5A; }
+    .funnel-row.level-3 .funnel-bar-inner { background: var(--moss); }
+    .funnel-row.level-4 .funnel-bar-inner { background: var(--soil); }
+
+    .funnel-connector { display: flex; align-items: center; gap: 0; padding-left: 260px; }
+    .funnel-arrow { font-size: 0.75rem; color: var(--muted); padding: 0 0 0 1.1rem; opacity: 0.6; }
+
+    /* FILTERS */
+    .filter-bar { max-width: 1100px; margin: 2rem auto 0; padding: 0 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
+    .filter-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); flex-shrink: 0; }
+    .filter-group { display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center; }
+    .filter-sep { width: 1px; height: 18px; background: var(--border); flex-shrink: 0; margin: 0 0.2rem; }
+    .filter-btn { background: white; border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.75rem; font-size: 0.78rem; color: var(--muted); cursor: pointer; font-family: inherit; transition: all 0.15s; white-space: nowrap; }
+    .filter-btn:hover { border-color: var(--sage); color: var(--bark); background: var(--cream); }
+    .filter-btn.active { background: var(--soil); color: var(--cream); border-color: var(--soil); }
+    .filter-btn.source-ia50.active { background: #3A5A7A; border-color: #3A5A7A; }
+    .filter-btn.source-t25.active { background: #5A7A3A; border-color: #5A7A3A; }
+    .filter-btn.source-csaf.active { background: #7A5A2A; border-color: #7A5A2A; }
+    .filter-btn.source-tifs.active { background: #5A3A6A; border-color: #5A3A6A; }
+    .filter-btn.source-aef.active { background: var(--moss); border-color: var(--moss); }
+
+    .search-wrap { margin-left: auto; }
+    .search-input { border: 1px solid var(--border); border-radius: 6px; padding: 0.3rem 0.75rem; font-size: 0.82rem; font-family: inherit; color: var(--text); background: white; width: 220px; outline: none; }
+    .search-input:focus { border-color: var(--sage); }
+
+    /* COUNT BAR */
+    .count-bar { max-width: 1100px; margin: 1rem auto 0; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .count-badge { font-size: 0.82rem; color: var(--muted); }
+    .reset-btn { font-size: 0.78rem; color: var(--moss); background: none; border: none; cursor: pointer; font-family: inherit; text-decoration: underline; text-underline-offset: 2px; display: none; }
+    .reset-btn.visible { display: inline; }
+
+    /* TABLE */
+    .table-wrap { max-width: 1100px; margin: 1rem auto 4rem; padding: 0 2rem; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    thead th { background: var(--cream); border-bottom: 2px solid var(--border); padding: 0.55rem 0.85rem; text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 600; white-space: nowrap; cursor: pointer; user-select: none; }
+    thead th:hover { color: var(--bark); }
+    thead th .sort-arrow { display: inline-block; margin-left: 0.3rem; opacity: 0.4; font-size: 0.65rem; }
+    thead th.sorted .sort-arrow { opacity: 1; color: var(--moss); }
+    tbody td { padding: 0.6rem 0.85rem; border-bottom: 1px solid var(--border); font-size: 0.85rem; vertical-align: top; }
+    tbody tr:hover td { background: #F8F4EE; }
+    tbody tr.hidden { display: none; }
+
+    .td-name { font-weight: 600; color: var(--soil); }
+    .td-name a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--sage); }
+    .td-name a:hover { color: var(--moss); }
+    .td-name .active-flag { display: inline-block; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; background: #E8F5E1; color: #2D6A1F; border: 1px solid #A8D99A; border-radius: 4px; padding: 0.1rem 0.45rem; margin-left: 0.4rem; vertical-align: middle; }
+
+    .source-pill { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.5rem; border-radius: 10px; white-space: nowrap; margin: 0.1rem 0.15rem 0.1rem 0; }
+    .sp-ia50    { background: #E8F0FA; color: #3A5A7A; border: 1px solid #B8C8DA; }
+    .sp-t25     { background: #EEF5E8; color: #4A6A3A; border: 1px solid #B8D4B0; }
+    .sp-csaf    { background: #FDF4E0; color: #7A5A1A; border: 1px solid #E0C87A; }
+    .sp-tifs    { background: #F2EEF8; color: #5A4A7A; border: 1px solid #C0B8DC; }
+    .sp-aef     { background: #EEF6EC; color: #2D6A1F; border: 1px solid #A8D99A; }
+    .sp-biovision { background: #F8F0E8; color: #7A4A1A; border: 1px solid #D4B890; }
+    .sp-manual  { background: #F0F0F0; color: #555; border: 1px solid #CCC; }
+
+    .year-list { font-size: 0.72rem; color: var(--muted); margin-top: 0.2rem; }
+
+    .tag-list { display: flex; flex-wrap: wrap; gap: 0.2rem; max-width: 320px; }
+    .sector-tag { font-size: 0.7rem; background: white; border: 1px solid var(--border); border-radius: 10px; padding: 0.1rem 0.45rem; color: var(--muted); }
+
+    .td-notes { font-size: 0.78rem; color: var(--muted); max-width: 260px; line-height: 1.45; }
+
+    .no-results { text-align: center; padding: 3rem 1rem; color: var(--muted); font-size: 0.9rem; }
+
+    footer { background: var(--soil); color: var(--straw); text-align: center; padding: 1.5rem; font-size: 0.82rem; }
+    footer a { color: var(--sage); text-decoration: none; }
+
+    @media (max-width: 700px) {
+      .funnel-label { width: 160px; font-size: 0.78rem; }
+      table th:nth-child(n+4), table td:nth-child(n+4) { display: none; }
+      .filter-bar { gap: 0.5rem; }
+      .search-wrap { margin-left: 0; width: 100%; }
+      .search-input { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-label"><a href="index.html">← Agroecology Investment Directory</a></div>
+    <h1>Research Pipeline</h1>
+    <p>An audit trail of every fund scanned across five major impact investing source lists — showing what those lists are tracking, and what they are not.</p>
+    <div class="header-meta">
+      <span class="meta-pill" id="total-pill">— funds scanned</span>
+      <span class="meta-pill">Sources: IA50 · T25 · CSAF · TIFS · AEF</span>
+      <a class="data-btn" href="candidates.json" target="_blank">View raw data (JSON)</a>
+      <a class="data-btn" href="candidates.json" download="agroecology-candidates.json">Download JSON</a>
+    </div>
+  </div>
+</header>
+
+<div class="about-bar">
+  <div class="about-inner">
+    <strong>Purpose</strong>
+    <p>The major impact investing lists — IA50, T25, CSAF — each track something real, but none of them tracks agroecology. This page documents what we found when we scanned them: 360 funds across five sources, of which six meet the directory's agroecology alignment criteria.</p>
+  </div>
+</div>
+
+<!-- FUNNEL -->
+<div class="funnel-section">
+  <div class="funnel-title">From 360 funds scanned to 6 documented</div>
+  <div class="funnel-subtitle">Each level applies a narrower filter. The drop from level to level is the argument this directory makes.</div>
+  <div class="funnel-rows" id="funnel-rows"></div>
+</div>
+
+<!-- FILTERS -->
+<div class="filter-bar">
+  <span class="filter-label">Source</span>
+  <div class="filter-group">
+    <button class="filter-btn source-ia50" data-filter="source" data-val="IA50">IA50</button>
+    <button class="filter-btn source-t25"  data-filter="source" data-val="T25">T25</button>
+    <button class="filter-btn source-csaf" data-filter="source" data-val="CSAF">CSAF</button>
+    <button class="filter-btn source-tifs" data-filter="source" data-val="TIFS">TIFS</button>
+    <button class="filter-btn source-aef"  data-filter="source" data-val="AEF">AEF</button>
+    <button class="filter-btn source-aef"  data-filter="source" data-val="AEF-network">AEF Network</button>
+    <button class="filter-btn source-aef"  data-filter="source" data-val="Biovision">Biovision</button>
+    <button class="filter-btn source-manual" data-filter="source" data-val="manual">Manual</button>
+  </div>
+  <div class="filter-sep"></div>
+  <div class="filter-group">
+    <button class="filter-btn" data-filter="agroecology" data-val="true">Agroecology ✓</button>
+    <button class="filter-btn" data-filter="ag" data-val="ag">Agriculture-focused</button>
+    <button class="filter-btn" data-filter="regen" data-val="regen">Regenerative / Conservation</button>
+  </div>
+  <div class="filter-sep"></div>
+  <div class="filter-group">
+    <button class="filter-btn" data-filter="crosslisted" data-val="crosslisted">Cross-listed only</button>
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" id="search" type="text" placeholder="Search name or tag…" />
+  </div>
+</div>
+
+<div class="count-bar">
+  <span class="count-badge" id="count-badge"></span>
+  <button class="reset-btn" id="reset-btn" onclick="resetFilters()">Reset filters</button>
+</div>
+
+<!-- TABLE -->
+<div class="table-wrap">
+  <table id="main-table">
+    <thead>
+      <tr>
+        <th data-col="name">Fund <span class="sort-arrow">↕</span></th>
+        <th data-col="source">Source <span class="sort-arrow">↕</span></th>
+        <th data-col="sector">Sector tags <span class="sort-arrow">↕</span></th>
+        <th data-col="notes">Notes <span class="sort-arrow">↕</span></th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <tr><td colspan="4" class="no-results">Loading…</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  <p>Agroecology Investment Directory &nbsp;·&nbsp;
+     <a href="index.html">← Fund Directory</a> &nbsp;·&nbsp;
+     <a href="resources.html">Resources &amp; Tools</a> &nbsp;·&nbsp;
+     <a href="candidates.json" download="agroecology-candidates.json">Download pipeline data (JSON)</a>
+  </p>
+</footer>
+
+<script>
+  // ── tag sets (mirrors Python logic) ──────────────────────────────────────
+  const AG_TAGS = new Set([
+    'food systems','agriculture','smallholder agriculture','smallholder farmers',
+    'farmland','organic farming','regenerative agriculture','agroforestry',
+    'agricultural lending','cooperative finance','food sovereignty',
+    'agritech','fair trade','food security','cooperative lending',
+    'producer organizations','agroecology','agroecology transition',
+    'regional food','farmer cooperatives'
+  ]);
+  const REGEN_TAGS = new Set([
+    'regenerative agriculture','agroforestry','agroecology','agroecology transition',
+    'organic farming','food sovereignty','natural capital','biodiversity',
+    'nature-based solutions','nature tech','conservation','regenerative'
+  ]);
+
+  function isAg(entry)    { return entry.sector_tags.some(t => AG_TAGS.has(t)); }
+  function isRegen(entry) { return entry.sector_tags.some(t => REGEN_TAGS.has(t)); }
+
+  // ── funnel data ───────────────────────────────────────────────────────────
+  const FUNNEL_LEVELS = [
+    { label: 'All funds scanned',                   sub: 'across IA50, T25, CSAF, TIFS, AEF, and manual',         filter: () => true,                                         cls: 'level-0' },
+    { label: 'Agriculture or food systems focus',   sub: 'sector tags include food, ag, farmland, or smallholder', filter: e => isAg(e),                                        cls: 'level-1' },
+    { label: 'Regenerative or agroecology mandate', sub: 'tags include regenerative ag, agroecology, conservation', filter: e => isAg(e) && isRegen(e),                         cls: 'level-2' },
+    { label: 'Explicitly agroecology-aligned',      sub: 'active funds in this directory',                         filter: e => e.agroecology === true,                         cls: 'level-4' },
+  ];
+
+  // ── source pill helper ────────────────────────────────────────────────────
+  const SOURCE_CLASS = {
+    'IA50': 'sp-ia50', 'T25': 'sp-t25', 'CSAF': 'sp-csaf',
+    'TIFS': 'sp-tifs', 'AEF': 'sp-aef', 'AEF-network': 'sp-aef',
+    'Biovision': 'sp-biovision', 'manual': 'sp-manual'
+  };
+  function sourcePills(entry) {
+    return entry.source.map(s => {
+      const cls = SOURCE_CLASS[s] || 'sp-manual';
+      return `<span class="source-pill ${cls}">${s}</span>`;
+    }).join('');
+  }
+  function yearStr(entry) {
+    if (!entry.source_years || !entry.source_years.length) return '';
+    return `<div class="year-list">${entry.source_years.join(', ')}</div>`;
+  }
+
+  // ── state ─────────────────────────────────────────────────────────────────
+  let ALL_DATA = [];
+  let activeFilters = { source: null, agroecology: null, ag: null, regen: null, crosslisted: null };
+  let searchQ = '';
+  let sortCol = 'name', sortDir = 1;
+
+  // ── build funnel ──────────────────────────────────────────────────────────
+  function buildFunnel(data) {
+    const total = data.length;
+    const container = document.getElementById('funnel-rows');
+    container.innerHTML = '';
+    FUNNEL_LEVELS.forEach((level, i) => {
+      const count = data.filter(level.filter).length;
+      const pct   = (count / total * 100).toFixed(0);
+      const width = Math.max(count / total * 100, 1.5);
+      const isLast = i === FUNNEL_LEVELS.length - 1;
+
+      const row = document.createElement('div');
+      row.className = `funnel-row ${level.cls}`;
+      row.innerHTML = `
+        <div class="funnel-label">${level.label}<small>${level.sub}</small></div>
+        <div class="funnel-bar-wrap">
+          <div class="funnel-bar" style="width:${width}%">
+            <div class="funnel-bar-inner"></div>
+          </div>
+          <span class="funnel-count">${count.toLocaleString()}</span>
+          ${!isLast ? `<span class="funnel-pct">${pct}%</span>` : ''}
+        </div>`;
+      container.appendChild(row);
+
+      // connector arrow between rows (not after last)
+      if (!isLast) {
+        const next = data.filter(FUNNEL_LEVELS[i+1].filter).length;
+        const dropped = count - next;
+        const arrow = document.createElement('div');
+        arrow.className = 'funnel-connector';
+        arrow.innerHTML = `<span class="funnel-arrow">↓ ${dropped.toLocaleString()} filtered out</span>`;
+        container.appendChild(arrow);
+      }
+    });
+  }
+
+  // ── build table ───────────────────────────────────────────────────────────
+  function buildTable(data) {
+    const tbody = document.getElementById('table-body');
+    if (!data.length) {
+      tbody.innerHTML = '<tr><td colspan="4" class="no-results">No funds match the current filters.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = data.map(entry => {
+      const nameCell = entry.url
+        ? `<a href="${entry.url}" target="_blank" rel="noopener">${esc(entry.name)}</a>`
+        : esc(entry.name);
+      const activeBadge = entry.agroecology
+        ? `<span class="active-flag">Active</span>`
+        : '';
+      const tags = entry.sector_tags.map(t =>
+        `<span class="sector-tag">${esc(t)}</span>`
+      ).join('');
+
+      return `<tr>
+        <td class="td-name">${nameCell}${activeBadge}</td>
+        <td>${sourcePills(entry)}${yearStr(entry)}</td>
+        <td><div class="tag-list">${tags}</div></td>
+        <td class="td-notes">${esc(entry.notes)}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  // ── filter + sort ─────────────────────────────────────────────────────────
+  function applyAll() {
+    let data = ALL_DATA.slice();
+
+    // source filter
+    if (activeFilters.source) {
+      data = data.filter(e => e.source.includes(activeFilters.source));
+    }
+    // agroecology filter
+    if (activeFilters.agroecology === 'true') {
+      data = data.filter(e => e.agroecology === true);
+    }
+    // ag filter
+    if (activeFilters.ag) {
+      data = data.filter(e => isAg(e));
+    }
+    // regen filter
+    if (activeFilters.regen) {
+      data = data.filter(e => isRegen(e));
+    }
+    // cross-listed
+    if (activeFilters.crosslisted) {
+      data = data.filter(e => e.source.length > 1);
+    }
+    // search
+    if (searchQ) {
+      const q = searchQ.toLowerCase();
+      data = data.filter(e =>
+        e.name.toLowerCase().includes(q) ||
+        e.sector_tags.some(t => t.toLowerCase().includes(q)) ||
+        (e.notes && e.notes.toLowerCase().includes(q))
+      );
+    }
+
+    // sort
+    data.sort((a, b) => {
+      let av, bv;
+      if (sortCol === 'name')   { av = a.name.toLowerCase();         bv = b.name.toLowerCase(); }
+      if (sortCol === 'source') { av = a.source.join(',');            bv = b.source.join(','); }
+      if (sortCol === 'sector') { av = a.sector_tags.join(',');       bv = b.sector_tags.join(','); }
+      if (sortCol === 'notes')  { av = (a.notes||'').toLowerCase();   bv = (b.notes||'').toLowerCase(); }
+      if (av < bv) return -1 * sortDir;
+      if (av > bv) return  1 * sortDir;
+      return 0;
+    });
+
+    // agroecology=true always floats to top
+    data.sort((a, b) => (b.agroecology ? 1 : 0) - (a.agroecology ? 1 : 0));
+
+    document.getElementById('count-badge').textContent =
+      data.length === ALL_DATA.length
+        ? `${data.length} funds`
+        : `${data.length} of ${ALL_DATA.length} funds`;
+
+    const anyActive = Object.values(activeFilters).some(v => v) || !!searchQ;
+    document.getElementById('reset-btn').classList.toggle('visible', anyActive);
+
+    buildTable(data);
+  }
+
+  // ── filter button clicks ──────────────────────────────────────────────────
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filterKey = btn.dataset.filter;
+      const val       = btn.dataset.val;
+
+      if (btn.classList.contains('active')) {
+        btn.classList.remove('active');
+        activeFilters[filterKey] = null;
+      } else {
+        // deactivate siblings in same filter group
+        document.querySelectorAll(`.filter-btn[data-filter="${filterKey}"]`).forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilters[filterKey] = val;
+      }
+      applyAll();
+    });
+  });
+
+  // ── search ────────────────────────────────────────────────────────────────
+  document.getElementById('search').addEventListener('input', e => {
+    searchQ = e.target.value.trim();
+    applyAll();
+  });
+
+  // ── sort ──────────────────────────────────────────────────────────────────
+  document.querySelectorAll('thead th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (sortCol === col) { sortDir *= -1; }
+      else { sortCol = col; sortDir = 1; }
+      document.querySelectorAll('thead th').forEach(h => h.classList.remove('sorted'));
+      th.classList.add('sorted');
+      th.querySelector('.sort-arrow').textContent = sortDir === 1 ? '↑' : '↓';
+      applyAll();
+    });
+  });
+
+  // ── reset ─────────────────────────────────────────────────────────────────
+  function resetFilters() {
+    activeFilters = { source: null, agroecology: null, ag: null, regen: null, crosslisted: null };
+    searchQ = '';
+    document.getElementById('search').value = '';
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    applyAll();
+  }
+
+  // ── escape helper ─────────────────────────────────────────────────────────
+  function esc(s) {
+    return s ? String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : '';
+  }
+
+  // ── load data ─────────────────────────────────────────────────────────────
+  fetch('candidates.json')
+    .then(r => r.json())
+    .then(data => {
+      ALL_DATA = data;
+      document.getElementById('total-pill').textContent = data.length + ' funds scanned';
+      buildFunnel(data);
+      applyAll();
+    })
+    .catch(err => {
+      document.getElementById('table-body').innerHTML =
+        `<tr><td colspan="4" style="padding:3rem;text-align:center;color:var(--muted)">Could not load candidates.json.<br><small>${err}</small></td></tr>`;
+    });
+</script>
+</body>
+</html>

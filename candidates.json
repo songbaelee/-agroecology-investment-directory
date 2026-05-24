@@ -1,0 +1,6590 @@
+[
+  {
+    "name": "The Reciprocity Fund",
+    "url": "https://beneficialreturns.com/reciprocity-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "indigenous finance",
+      "smallholder agriculture",
+      "agroforestry",
+      "cooperative lending"
+    ],
+    "agroecology": true,
+    "status": "active",
+    "notes": "Active fund in directory. Listed on T25 2023."
+  },
+  {
+    "name": "FINAPOP",
+    "url": "https://finapop.com.br/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "cooperative lending",
+      "smallholder agriculture",
+      "agroecology transition",
+      "solidarity economy"
+    ],
+    "agroecology": true,
+    "status": "active",
+    "notes": "Active fund in directory. Listed on T25 2024."
+  },
+  {
+    "name": "NESsT Lirio Fund",
+    "url": "https://www.nesst.org/",
+    "source": [
+      "IA50",
+      "T25",
+      "CSAF"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "smallholder agriculture",
+      "food systems",
+      "job creation",
+      "impact lending"
+    ],
+    "agroecology": true,
+    "status": "active",
+    "notes": "Active fund in directory. NESsT listed on IA50 2026, T25 2021, and CSAF as regional affiliate."
+  },
+  {
+    "name": "Barka Fund",
+    "url": "https://barkafund.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "smallholder agriculture",
+      "agroecology",
+      "west africa",
+      "cooperative lending"
+    ],
+    "agroecology": true,
+    "status": "active",
+    "notes": "Active fund in directory. Listed on T25 2023."
+  },
+  {
+    "name": "Pachamama Coffee Cooperative",
+    "url": "https://www.pachamama.coop/",
+    "source": [
+      "manual"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "coffee",
+      "cooperative",
+      "smallholder agriculture",
+      "fair trade"
+    ],
+    "agroecology": true,
+    "status": "active",
+    "notes": "Active fund in directory. Not found in any of the five scanned source lists — absence is itself notable data."
+  },
+  {
+    "name": "Neycha Accelerator & Fund",
+    "url": "https://neychaaccelerator.co/",
+    "source": [
+      "T25",
+      "Biovision",
+      "TIFS"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "agroecology",
+      "east africa",
+      "enterprise accelerator",
+      "smallholder agriculture"
+    ],
+    "agroecology": true,
+    "status": "active",
+    "notes": "Active fund in directory. Listed on T25 2024, Biovision network, and assessed in TIFS 2023 report with 100% SIA alignment score."
+  },
+  {
+    "name": "The 22 Fund I, LP",
+    "url": "https://the22fund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "clean manufacturing",
+      "job creation",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ABC Impact",
+    "url": "https://abcimpact.com.sg/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "private equity",
+      "climate",
+      "financial inclusion",
+      "southeast asia"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Accial Capital Management LLC",
+    "url": "https://www.accialcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech lending",
+      "financial inclusion",
+      "emerging markets",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Accion",
+    "url": "https://www.accion.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "smallholder farmers",
+      "microfinance",
+      "digital finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Achieve Partners",
+    "url": "https://www.achievepartners.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "workforce development",
+      "education",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Acre Impact Capital",
+    "url": "https://www.acre.capital",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "infrastructure",
+      "climate",
+      "africa",
+      "essential services"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Acumen Capital Partners LLC",
+    "url": "https://acumencapitalpartners.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "energy",
+      "poverty reduction",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Adenia Partners",
+    "url": "https://www.adenia.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "private equity",
+      "africa",
+      "decarbonization",
+      "sme"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Adjuvant Capital",
+    "url": "https://adjuvantcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "public health",
+      "food systems",
+      "agriculture",
+      "health technology"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Advantage Capital",
+    "url": "https://www.advantagecap.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "energy",
+      "job creation",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "AfricInvest",
+    "url": "https://www.africinvest.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "private equity",
+      "africa",
+      "financial inclusion",
+      "sme"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "AiiM Partners",
+    "url": "https://www.aiimpartners.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "digital transformation",
+      "energy",
+      "supply chain"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Alante Capital Management",
+    "url": "https://www.alantecapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "circular economy",
+      "apparel",
+      "climate",
+      "decarbonization"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Alder Point Capital Management LLC",
+    "url": "https://www.alderpoint.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "farmland",
+      "timberland",
+      "regenerative agriculture",
+      "food systems",
+      "biodiversity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Aligned Climate Capital",
+    "url": "https://www.alignedclimatecapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "clean energy",
+      "decarbonization"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ALIVE Ventures LLC",
+    "url": "https://www.alive-ventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "financial inclusion",
+      "latin america",
+      "gender lens"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Allivate Impact Capital",
+    "url": "https://www.allivate.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Amazonia Impact Ventures",
+    "url": "https://www.amazoniaimpactventures.com/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "amazon",
+      "regenerative agriculture",
+      "conservation",
+      "latin america",
+      "impact-linked loans"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Amboy Street Ventures LLC",
+    "url": "https://www.amboystreet.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "women's health",
+      "healthcare",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Amplifica Capital",
+    "url": "https://www.amplifica.capital/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "climate",
+      "latin america",
+      "fintech",
+      "digital inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Arborview Capital LLC",
+    "url": "https://www.arborviewcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sustainability",
+      "climate",
+      "energy",
+      "health"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ArcTern Ventures",
+    "url": "https://www.arcternventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "clean energy",
+      "decarbonization",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Arise Ventures",
+    "url": "https://www.ariseventures.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "healthtech",
+      "enterprise",
+      "consumer"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Aruwa Capital Management",
+    "url": "https://aruwacapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "africa",
+      "financial inclusion",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Astia",
+    "url": "https://www.astia.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "women-led",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Avesta Fund",
+    "url": "https://www.avesta.fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "clean energy",
+      "climate",
+      "economic inclusion",
+      "seed stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "AWE Capital Advisors LLP",
+    "url": "https://www.awefunds.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "climate tech",
+      "healthtech",
+      "fintech"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Azolla Ventures",
+    "url": "https://azollaventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "decarbonization",
+      "early stage",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Bamboo Capital Partners",
+    "url": "http://www.bamboocp.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "energy access",
+      "food systems",
+      "agriculture",
+      "emerging markets",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "BDP Impact Real Estate",
+    "url": "https://www.bdpimpact.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "real estate",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "BEA Entrepreneurs Fund LP",
+    "url": "https://beaventurefund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "racial equity",
+      "venture capital",
+      "financial inclusion",
+      "black-led"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Beneficial Returns LLC",
+    "url": "https://beneficialreturns.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "conservation",
+      "southeast asia",
+      "latin america",
+      "poverty reduction"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Better Ventures",
+    "url": "https://www.better.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "decarbonization",
+      "enterprise tech",
+      "b2b"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Beyond Impact Advisors",
+    "url": "https://beyondimpact.vc",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "food systems",
+      "agriculture",
+      "regenerative",
+      "biodiversity",
+      "animal welfare"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "BKR Capital",
+    "url": "https://www.bkrcapital.ca/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "racial equity",
+      "black-led",
+      "venture capital",
+      "canada"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Black Opal Ventures",
+    "url": "https://www.blackopalventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "health technology",
+      "racial equity",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Blackstar Stability",
+    "url": "https://blackstarstability.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "real estate",
+      "community development",
+      "minority-owned"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Blue Earth Capital AG",
+    "url": "https://blueearth.capital/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "financial inclusion",
+      "job creation",
+      "global",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Blue Forest",
+    "url": "https://www.blueforest.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "conservation",
+      "forest restoration",
+      "natural resources",
+      "climate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "BlueHub Capital",
+    "url": "https://bluehubcapital.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "education",
+      "healthy food access",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "BlueOrchard Finance Ltd",
+    "url": "https://www.blueorchard.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "microfinance",
+      "financial inclusion",
+      "climate",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Boston Impact Initiative",
+    "url": "https://bostonimpact.org/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "community development",
+      "climate",
+      "cooperative",
+      "cdfi",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Branch Venture Group Inc",
+    "url": "https://www.branchventuregroup.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "sustainability",
+      "early stage",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "BTG Pactual Timberland Investment Group LLC",
+    "url": "https://timberlandinvestmentgroup.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "timberland",
+      "natural resources",
+      "climate",
+      "conservation"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Burnt Island Ventures",
+    "url": "https://www.burntislandventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "water",
+      "climate",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Calvert Impact",
+    "url": "https://calvertimpact.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "affordable housing",
+      "climate",
+      "cdfi",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Capital Impact Partners",
+    "url": "https://www.capitalimpact.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "affordable housing",
+      "financial inclusion",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Capria Ventures LLC",
+    "url": "https://capria.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "health",
+      "workforce development",
+      "global south",
+      "ai"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Catalyst Fund",
+    "url": "https://www.thecatalystfund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate adaptation",
+      "food systems",
+      "agriculture",
+      "water",
+      "energy",
+      "africa",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Cauris Finance",
+    "url": "https://caurisfinance.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "africa",
+      "financial inclusion",
+      "credit"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Chasing Rainbows",
+    "url": "https://www.chasingrainbows.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "lgbtq+",
+      "venture capital",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Chloe Capital LLC",
+    "url": "https://chloecapital.com",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "climate",
+      "education",
+      "workforce",
+      "seed stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Circulate Capital",
+    "url": "https://www.circulatecapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "circular economy",
+      "plastic waste",
+      "climate",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Clear Frontier Ag. Management",
+    "url": "https://www.clearfrontierag.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "farmland",
+      "organic farming",
+      "regenerative agriculture",
+      "food systems",
+      "biodiversity",
+      "women in ag"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Climate Asset Management",
+    "url": "https://climateassetmanagement.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "natural capital",
+      "regenerative agriculture",
+      "forestry",
+      "carbon",
+      "food systems",
+      "climate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Clime Capital",
+    "url": "https://www.climecap.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "clean energy",
+      "climate",
+      "southeast asia",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Closed Loop Partners LLC",
+    "url": "https://www.closedlooppartners.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "circular economy",
+      "climate",
+      "natural resources",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Coastal Enterprises Inc",
+    "url": "https://www.ceimaine.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "climate",
+      "community development",
+      "cdfi",
+      "maine"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Community Credit Lab",
+    "url": "https://commonfuture.co/community-credit-lab",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "racial equity",
+      "community development",
+      "financial inclusion",
+      "catalytic capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Community Investment Management LLC",
+    "url": "https://cim-llc.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "sme finance",
+      "racial equity",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Connect Humanity",
+    "url": "https://connecthumanity.fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "digital infrastructure",
+      "financial inclusion",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Conservation Fund",
+    "url": "https://www.conservationfund.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "conservation",
+      "food systems",
+      "agriculture",
+      "natural resources",
+      "climate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Conservation Resources Partners LLC",
+    "url": "https://www.conservationresources.net/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "timberland",
+      "farmland",
+      "natural resources",
+      "conservation",
+      "biodiversity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Cooperative Fund of the Northeast Inc",
+    "url": "https://cooperativefund.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "cooperative",
+      "community development",
+      "affordable housing",
+      "job creation",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "CoPeace Capital",
+    "url": "https://copeace.com",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "healthcare",
+      "sports",
+      "impact investing"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Core Innovation Capital",
+    "url": "https://corevc.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "food systems",
+      "affordable housing",
+      "financial inclusion",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Craft3",
+    "url": "https://www.craft3.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "climate",
+      "financial inclusion",
+      "pacific northwest",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Creation Investments Capital Management LLC",
+    "url": "https://creationinvestments.com",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "food systems",
+      "agriculture",
+      "microfinance",
+      "fintech",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Cross-Border Impact Ventures",
+    "url": "https://www.crossborder.ventures/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "health technology",
+      "women and children",
+      "medical devices",
+      "diagnostics"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "CrossBoundary Group",
+    "url": "https://crossboundary.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "energy",
+      "infrastructure",
+      "conservation",
+      "emerging markets",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "DBL Partners",
+    "url": "https://www.dbl.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "decarbonization",
+      "natural resources",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "De-Carceration Fund LP",
+    "url": "https://www.decarcerationfund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "criminal justice",
+      "financial inclusion",
+      "workforce development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Deetken Asset Management Inc",
+    "url": "http://www.deetkenimpact.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "decarbonization",
+      "latin america",
+      "gender lens"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Developing World Markets",
+    "url": "https://dwmarkets.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "emerging markets",
+      "climate",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Dirt Capital Partners",
+    "url": "https://www.dirtpartners.com/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "farmland",
+      "regenerative agriculture",
+      "food systems",
+      "smallholder farmers",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Earthshot Ventures LLC",
+    "url": "https://www.earthshot.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "energy",
+      "decarbonization",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "East Bay Permanent Real Estate Cooperative",
+    "url": "https://www.ebprec.org/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "community real estate",
+      "affordable housing",
+      "racial equity",
+      "community ownership"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "EcoEnterprises Fund",
+    "url": "https://ecoenterprisesfund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "nature-based solutions",
+      "conservation",
+      "latin america",
+      "biodiversity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "EFM",
+    "url": "https://efmi.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "forestry",
+      "natural resources",
+      "climate",
+      "carbon",
+      "conservation"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "EG Capital",
+    "url": "https://egcapital.online/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "climate adaptation",
+      "gender lens",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Elevar Equity",
+    "url": "https://elevarequity.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "affordable housing",
+      "healthcare",
+      "education",
+      "agriculture",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Ember Infrastructure",
+    "url": "https://ember-infra.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "energy",
+      "water",
+      "infrastructure",
+      "decarbonization"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Enduring Planet",
+    "url": "https://enduringplanet.com/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "climate",
+      "decarbonization",
+      "energy",
+      "working capital",
+      "startups"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Energy Impact Partners",
+    "url": "https://www.energyimpactpartners.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "energy transition",
+      "climate",
+      "decarbonization",
+      "infrastructure"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Enhanced Capital",
+    "url": "https://enhancedcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "climate",
+      "small business",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Enterprise Community Partners Inc",
+    "url": "https://www.enterprisecommunity.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Envest Microfinance Cooperative",
+    "url": "https://envestmicrofinance.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "microfinance",
+      "financial inclusion",
+      "global south"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Equator VC",
+    "url": "https://equator.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "energy",
+      "agriculture",
+      "mobility",
+      "sub-saharan africa",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Fabric VC",
+    "url": "https://www.fabricvc.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "climate",
+      "financial inclusion",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "FINCA Ventures",
+    "url": "https://finca.org/fincaventures",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "health",
+      "energy",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Foreground Capital",
+    "url": "https://foreground.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "women's health",
+      "healthcare",
+      "life sciences",
+      "digital health"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "GAWA Capital Partners",
+    "url": "https://www.gawacapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "climate",
+      "microfinance",
+      "spain",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Global Health Investment Corporation",
+    "url": "https://ghicfunds.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "global health",
+      "vaccines",
+      "diagnostics",
+      "medical technology"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Global Partnerships",
+    "url": "https://globalpartnerships.org/",
+    "source": [
+      "IA50",
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "health",
+      "energy",
+      "latin america",
+      "poverty reduction"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Goodwell Investments BV",
+    "url": "https://www.goodwell.nl/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "emerging markets",
+      "early stage",
+      "basic goods services"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Gratitude Railroad",
+    "url": "https://gratituderailroad.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "energy",
+      "health",
+      "early stage",
+      "community-driven"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "HCAP Partners",
+    "url": "https://www.hcap.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "workforce development",
+      "health",
+      "mezzanine debt",
+      "us lower middle market"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Housing Partnership Network",
+    "url": "https://www.housingpartnership.net/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "climate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Hudson Valley Property Group",
+    "url": "https://hudsonvalleypropertygroup.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "climate",
+      "decarbonization",
+      "real estate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Illumen Capital",
+    "url": "https://www.illumencapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "racial equity",
+      "gender equity",
+      "fund of funds",
+      "bias reduction"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Impact Engine Management PBC",
+    "url": "https://www.theimpactengine.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "financial inclusion",
+      "health equity",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Impact Science Ventures",
+    "url": "https://impactscience.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "decarbonization",
+      "energy",
+      "deep tech",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Incofin Investment Management",
+    "url": "https://incofin.com/",
+    "source": [
+      "IA50",
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "water",
+      "emerging markets",
+      "microfinance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Inspired Evolution Managers Ltd",
+    "url": "https://inspiredevolution.co.za/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "clean energy",
+      "climate",
+      "africa",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Investisseurs & Partenaires",
+    "url": "http://www.ietp.com/en",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "africa",
+      "financial inclusion",
+      "job creation"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Iroquois Valley Farmland REIT PBC",
+    "url": "https://iroquoisvalley.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "farmland",
+      "organic farming",
+      "regenerative agriculture",
+      "food systems",
+      "climate",
+      "biodiversity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "iThink VC Ignite Fund LP",
+    "url": "https://ithinkvc.tech/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "fintech",
+      "latin america",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "JFF Ventures Fund LLC",
+    "url": "https://info.jff.org/ventures",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "workforce development",
+      "education",
+      "job creation"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Jonathan Rose Companies",
+    "url": "https://www.rosecompanies.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "climate",
+      "real estate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kachuwa Investment Cooperative PBC",
+    "url": "https://www.kachuwaimpactfund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "energy",
+      "financial inclusion",
+      "real estate",
+      "cooperative",
+      "democratic ownership"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kairos Investment Management Company",
+    "url": "https://kimc.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "financial inclusion",
+      "health",
+      "real estate",
+      "minority-owned"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kiva Capital Management LLC",
+    "url": "https://www.kiva.org/kiva-capital",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "microfinance",
+      "financial inclusion",
+      "gender lens",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "LeapFrog Investments",
+    "url": "https://leapfroginvest.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "health",
+      "financial inclusion",
+      "energy",
+      "emerging markets",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "LearnLaunch",
+    "url": "https://learnlaunch.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "education",
+      "workforce development",
+      "edtech",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Lendable Inc",
+    "url": "https://lendable.io/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "decarbonization",
+      "africa",
+      "asia",
+      "latin america",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Living Cities Inc",
+    "url": "https://livingcities.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "financial inclusion",
+      "affordable housing",
+      "workforce development",
+      "us cities"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Local Enterprise Assistance Fund Inc",
+    "url": "https://leaffund.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "affordable housing",
+      "worker cooperatives",
+      "cdfi",
+      "immigrant-led"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Local Initiatives Support Corporation",
+    "url": "https://www.lisc.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Lok Capital",
+    "url": "https://www.lokcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "climate",
+      "india",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Lumos Capital Group LLC",
+    "url": "https://www.lumoscapitalgroup.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "education",
+      "workforce development",
+      "human capital",
+      "growth stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Lyme Timber Company LLC",
+    "url": "https://www.lymetimber.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "forestry",
+      "conservation",
+      "natural resources",
+      "climate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mad Capital",
+    "url": "https://madcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "regenerative agriculture",
+      "organic farming",
+      "food systems",
+      "transition finance",
+      "us farmland"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Masawa Management",
+    "url": "https://masawa.fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "mental health",
+      "healthcare",
+      "europe",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Maycomb Capital",
+    "url": "https://www.maycombcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "education",
+      "health",
+      "workforce development",
+      "economic opportunity",
+      "women-led"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "MCE Social Capital",
+    "url": "https://www.mcesocap.org/",
+    "source": [
+      "IA50",
+      "CSAF",
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "smallholder farmers",
+      "blended finance",
+      "microfinance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Media Development Investment Fund Inc",
+    "url": "https://www.mdif.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "independent media",
+      "democracy",
+      "free press"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Medical Credit Fund",
+    "url": "http://www.medicalcreditfund.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "healthcare",
+      "financial inclusion",
+      "sub-saharan africa"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mercy Corps Ventures",
+    "url": "https://www.mercycorpsventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "climate adaptation",
+      "financial inclusion",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mirova",
+    "url": "https://www.mirova.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "financial inclusion",
+      "natural capital",
+      "conservation",
+      "sustainable investment"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mission Driven Finance LLC",
+    "url": "https://www.missiondrivenfinance.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "job creation",
+      "health",
+      "small business",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "MSquared",
+    "url": "https://buildmsquared.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "climate",
+      "community development",
+      "women-led",
+      "real estate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "New Majority Capital Management LLC",
+    "url": "https://www.newmajoritycapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "racial equity",
+      "small business acquisition",
+      "economic mobility",
+      "diverse entrepreneurs"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "NESsT",
+    "url": "https://www.nesst.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "job creation",
+      "indigenous peoples",
+      "impact lending"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Nordic Impact Funds",
+    "url": "https://www.nordicimpactfunds.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "climate adaptation",
+      "financial inclusion",
+      "east africa",
+      "sme"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "North Sky Capital",
+    "url": "https://northskycapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "energy",
+      "infrastructure",
+      "health",
+      "private equity",
+      "impact secondaries"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Omnivore Capital Management Advisors Private Limited",
+    "url": "https://www.omnivore.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "agritech",
+      "climate",
+      "india",
+      "smallholder farmers"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "One Acre Fund",
+    "url": "https://oneacrefund.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "smallholder farmers",
+      "financial inclusion",
+      "africa"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Open Road Impact",
+    "url": "https://openroadimpact.org/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "climate",
+      "energy",
+      "financial inclusion",
+      "catalytic capital",
+      "working capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Partners in Equity",
+    "url": "https://www.pie-nc.org/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "community development",
+      "financial inclusion",
+      "small business",
+      "real estate",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Patamar Capital LLC",
+    "url": "https://patamar.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "gender lens",
+      "asia",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Plum Alley",
+    "url": "https://plumalley.co/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "women-led",
+      "healthtech",
+      "climate",
+      "water",
+      "deep tech",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Proactive Sustainable Bonds",
+    "url": "https://sustainablebonds.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "water",
+      "fixed income"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Quadria Capital Investment Management Pte Ltd",
+    "url": "https://www.quadriacapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "healthcare",
+      "asia",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Quona Capital",
+    "url": "https://quona.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "financial inclusion",
+      "emerging markets",
+      "latin america",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Radicle Impact Management LLC",
+    "url": "http://www.radicleimpact.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "financial inclusion",
+      "economic mobility",
+      "diverse founders",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Rally Assets",
+    "url": "https://rallyassets.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "climate",
+      "health",
+      "multi-asset",
+      "foundations",
+      "family offices"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Rebalance Management LLC",
+    "url": "https://www.rebalancecap.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "workforce tech",
+      "financial inclusion",
+      "economic mobility",
+      "series a-b"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "REDF Impact Investing Fund",
+    "url": "https://redf.org/impact-investing/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "workforce development",
+      "financial inclusion",
+      "job creation",
+      "cdfi",
+      "barrier employment"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Regeneration.VC",
+    "url": "https://regeneration.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "climate",
+      "consumer climate tech",
+      "natural resources",
+      "biodiversity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Renew LLC",
+    "url": "https://www.renewcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "digital infrastructure",
+      "africa",
+      "climate",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Renewal Funds Management Company Ltd",
+    "url": "https://www.renewalfunds.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "energy",
+      "natural resources",
+      "canada",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ResilienceVC",
+    "url": "https://www.resilience.vc/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "financial inclusion",
+      "economic resilience",
+      "low income consumers",
+      "seed stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Resource Management Service LLC",
+    "url": "https://resourcemgt.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "timberland",
+      "forestry",
+      "natural resources",
+      "climate",
+      "carbon"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "responsAbility Investments AG",
+    "url": "https://www.responsability.com/",
+    "source": [
+      "IA50",
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "financial inclusion",
+      "climate",
+      "emerging markets",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Rethink Capital Partners",
+    "url": "https://rethink-capital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community development",
+      "education",
+      "healthcare",
+      "real estate",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Root Capital",
+    "url": "https://rootcapital.org/",
+    "source": [
+      "IA50",
+      "CSAF",
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "food systems",
+      "agricultural lending",
+      "africa",
+      "latin america",
+      "cooperative finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "RRG Capital Management",
+    "url": "https://renewablegroup.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "water",
+      "natural resources",
+      "biodiversity",
+      "renewable energy",
+      "real assets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "RSF Social Finance",
+    "url": "https://rsfsocialfinance.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "climate",
+      "education",
+      "health",
+      "racial justice",
+      "community finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "S2G Investments",
+    "url": "https://www.s2ginvestments.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "energy",
+      "climate",
+      "oceans",
+      "venture capital",
+      "growth stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SDS Capital Group",
+    "url": "https://www.sds.capital/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "affordable housing",
+      "workforce development",
+      "job creation",
+      "women-led"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Seabird Ventures",
+    "url": "https://www.seabirdventures.fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "ocean health",
+      "climate",
+      "water",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SEAF",
+    "url": "https://www.seaf.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "emerging markets",
+      "natural resources",
+      "technology",
+      "growth capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Second Horizon Capital",
+    "url": "https://www.secondhorizon.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "real estate",
+      "community development",
+      "decarbonization",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Seed Commons",
+    "url": "https://seedcommons.org/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "cooperative",
+      "community ownership",
+      "financial inclusion",
+      "racial equity",
+      "non-extractive finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Shared Capital Cooperative",
+    "url": "https://sharedcapital.coop/",
+    "source": [
+      "IA50",
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "cooperative",
+      "affordable housing",
+      "food systems",
+      "farmer cooperatives",
+      "cdfi",
+      "democratic governance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Signal Fund",
+    "url": "https://echoinggreen.org/signal-fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "financial inclusion",
+      "social enterprise",
+      "early stage",
+      "catalytic capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SJF Ventures",
+    "url": "https://sjfventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "education",
+      "health",
+      "industrial sustainability",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Slauson & Co Management LLC",
+    "url": "https://www.slauson.co/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "racial equity",
+      "economic inclusion",
+      "diverse founders",
+      "early stage",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SLM Partners",
+    "url": "https://www.slmpartners.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "regenerative agriculture",
+      "forestry",
+      "natural resources",
+      "organic farming",
+      "climate",
+      "real assets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SoGal Ventures LLC",
+    "url": "https://www.sogalventures.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "women-led",
+      "venture capital",
+      "diverse founders"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SouthBridge Investments",
+    "url": "https://www.southbgroup.com/sbi/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "africa",
+      "financial inclusion",
+      "health",
+      "sme finance",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Spring Impact Capital",
+    "url": "https://springimpactcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "health",
+      "water",
+      "social enterprise",
+      "canada",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Steward Holdings Inc",
+    "url": "https://gosteward.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "regenerative agriculture",
+      "food systems",
+      "farmland",
+      "natural resources",
+      "fintech platform"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Sunwealth Power Inc",
+    "url": "https://www.sunwealth.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "clean energy",
+      "community solar",
+      "climate",
+      "economic inclusion",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Superorganism Ventures LLC",
+    "url": "https://www.superorganism.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "biodiversity",
+      "food systems",
+      "agriculture",
+      "climate",
+      "nature tech",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Supply Change Capital",
+    "url": "http://supplychange.fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "supply chain",
+      "climate",
+      "labor",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Sweef Capital",
+    "url": "https://sweefcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "food systems",
+      "agriculture",
+      "health",
+      "education",
+      "southeast asia"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "TLG Capital",
+    "url": "https://tlgcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "sme finance",
+      "africa",
+      "private credit"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Triple Jump BV",
+    "url": "https://triplejump.eu/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "energy",
+      "emerging markets",
+      "microfinance",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "UC Impower",
+    "url": "https://ucimpower.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "climate",
+      "energy",
+      "india",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "UNICEF USA Impact Fund for Children",
+    "url": "https://www.unicefusa.org/how-help/donate/impact-fund-children",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "children",
+      "health",
+      "education",
+      "development finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Verge Capital Management Pte Ltd",
+    "url": "https://www.verge.fund/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "healthtech",
+      "medical technology",
+      "emerging markets",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Vidia GmbH",
+    "url": "https://vidiaequity.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "decarbonization",
+      "energy",
+      "industrial",
+      "europe"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Vistria Group LP",
+    "url": "https://vistria.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "healthcare",
+      "education",
+      "affordable housing",
+      "financial services",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Viwala SAPI de CV",
+    "url": "https://www.viwala.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "financial inclusion",
+      "natural resources",
+      "workforce development",
+      "sme",
+      "mexico"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Vox Capital Gestão de Recursos LTda",
+    "url": "https://voxcapital.com.br/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "energy",
+      "financial inclusion",
+      "brazil",
+      "multi-asset"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "WakeUp Capital Management",
+    "url": "https://www.wakeupcapital.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "decarbonization",
+      "health",
+      "europe",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "WaterEquity Inc",
+    "url": "https://waterequity.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "water",
+      "sanitation",
+      "financial inclusion",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Women's World Banking",
+    "url": "https://www.womensworldbanking.org/asset-management/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "financial inclusion",
+      "women",
+      "microfinance",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Working Capital for Community Needs Inc",
+    "url": "https://www.wccn.org/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "microfinance",
+      "financial inclusion",
+      "latin america",
+      "women",
+      "rural communities"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Working Capital Management",
+    "url": "https://workingcapitalfund.com/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "supply chain",
+      "responsible sourcing",
+      "worker rights",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "WovenEarth Ventures LLC",
+    "url": "https://www.wovenearth.ventures/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "energy",
+      "education",
+      "fund of funds"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Zeal Capital Partners",
+    "url": "https://www.zealvc.co/",
+    "source": [
+      "IA50"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "fintech",
+      "healthcare",
+      "workforce development",
+      "financial inclusion",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Affiliated Tribes of NW Indians Financial Services",
+    "url": "https://atniedc.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "indigenous finance",
+      "community development",
+      "native cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Africa Eats Fund",
+    "url": "https://www.africaeats.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "smallholder farmers",
+      "africa",
+      "holding company",
+      "poverty reduction"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Afterglow Climate Justice Fund",
+    "url": "https://www.transformative25.org/project/afterglow-climate-justice-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "climate justice",
+      "community finance",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Akiptan Inc",
+    "url": "https://www.transformative25.org/project/akiptan-inc/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "indigenous finance",
+      "native american",
+      "agriculture",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Angels of Impact",
+    "url": "https://www.transformative25.org/project/angels-of-impact-2/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "gender lens",
+      "emerging markets",
+      "angel investing"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Appalachian Impact Fund",
+    "url": "https://www.transformative25.org/project/appalachian-impact-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "place-based",
+      "appalachia",
+      "community development",
+      "energy"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Azure",
+    "url": "https://www.azurewater.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024,
+      2025
+    ],
+    "sector_tags": [
+      "water",
+      "indigenous",
+      "place-based",
+      "climate"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Beneficial Returns",
+    "url": "https://beneficialreturns.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "conservation",
+      "southeast asia",
+      "latin america",
+      "poverty reduction"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Black Farmer Fund",
+    "url": "https://blackfarmerfund.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "black farmers",
+      "racial equity",
+      "cdfi",
+      "land access"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Boston Impact Initiative Fund II",
+    "url": "https://bostonimpact.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "community development",
+      "climate",
+      "cooperative",
+      "cdfi",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Buen Vivir Fund — Thousand Currents",
+    "url": "https://www.transformative25.org/project/buen-vivir-fund-thousand-currents/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food sovereignty",
+      "indigenous",
+      "gender lens",
+      "latin america",
+      "global south",
+      "buen vivir"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "California FarmLink",
+    "url": "https://www.transformative25.org/project/california-farmlink-2/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "farmland access",
+      "food systems",
+      "agriculture",
+      "beginning farmers",
+      "cdfi",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Catalytic Capital Fund",
+    "url": "https://www.transformative25.org/project/catalytic-capital-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2026
+    ],
+    "sector_tags": [
+      "catalytic capital",
+      "community development",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Center for Economic Opportunity",
+    "url": "https://irc-ceo.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "refugee economic inclusion",
+      "workforce development",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Cielo Mex",
+    "url": "https://www.cielo.org.mx/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "affordable housing",
+      "mexico",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "CIMENTAFIN ECHALE",
+    "url": "https://www.transformative25.org/project/cimentafin-sapi-de-cv-sofom-enr/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "affordable housing",
+      "mexico",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Clarke Street Fund",
+    "url": "https://www.clarkestreetfund.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "community development",
+      "place-based",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Co Capital",
+    "url": "http://co.org.mx/co-capital/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "social enterprise",
+      "mexico",
+      "community development",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Collective Courage Fund",
+    "url": "https://www.thepartnershipfund.net/project-1-the-collective-courage-fund",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "community development",
+      "racial equity",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Concerned Capital",
+    "url": "https://www.concernedcapital.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Connect Up Institute",
+    "url": "https://connectupmn.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "indigenous",
+      "native american",
+      "community development",
+      "minnesota"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Cooperative Fund of the Northeast",
+    "url": "https://cooperativefund.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "cooperative",
+      "community development",
+      "food systems",
+      "worker ownership",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Dearfield Fund for Black Wealth",
+    "url": "https://www.dearfieldfund.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "black wealth",
+      "homeownership",
+      "denver"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "De-Carceration Fund",
+    "url": "https://www.decarcerationfund.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "criminal justice",
+      "financial inclusion",
+      "workforce development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Delta Fondo de Impacto Latinoamericano",
+    "url": "https://delta.sumatoria.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "latin america",
+      "social enterprise",
+      "ecological returns",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Denkyem Co-op",
+    "url": "https://denkyemcoop.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "black-owned business",
+      "racial equity",
+      "cooperative",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Employee Ownership Catalyst Fund",
+    "url": "https://project-equity.org/impact/capital/employee-ownership-catalyst-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "worker ownership",
+      "employee ownership",
+      "cooperative",
+      "economic democracy"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Equitable Economy Fund",
+    "url": "https://www.transformative25.org/project/equitable-economy-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "racial equity",
+      "economic justice",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Equitable Food Oriented Development",
+    "url": "https://www.transformative25.org/project/equitable-food-oriented-development/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "urban food",
+      "racial equity",
+      "place-based",
+      "california"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Fair Food Network",
+    "url": "https://www.transformative25.org/project/fair-food-network-2/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "snap incentives",
+      "food access",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Fibers Fund",
+    "url": "https://www.transformative25.org/project/fibers-fund-blog/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "textile",
+      "fiber arts",
+      "indigenous crafts",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "First Australians Capital",
+    "url": "https://firstaustralianscapital.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "indigenous finance",
+      "first nations",
+      "australia",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Flexible Capital Fund L3C",
+    "url": "https://www.transformative25.org/project/flexible-capital-fund-l3c/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "patient capital",
+      "food systems",
+      "agriculture",
+      "northeast us",
+      "small business"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Foodshed Capital Loan Fund",
+    "url": "https://www.transformative25.org/project/foodshed-capital-loan-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "regional food",
+      "small farms",
+      "mid-atlantic",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Friends of the Public Bank East Bay",
+    "url": "https://www.publicbankeastbay.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "public banking",
+      "community finance",
+      "racial equity",
+      "california"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Fund One",
+    "url": "https://www.srfimpact.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "community development",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Fund for Jobs Worth Owning",
+    "url": "https://www.transformative25.org/project/the-fund-for-jobs-worth-owning/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "worker ownership",
+      "cooperative",
+      "job quality",
+      "mezzanine finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Goodworks Evergreen",
+    "url": "https://www.transformative25.org/project/goodworks-evergreen-2/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "affordable housing",
+      "community development",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Gouts Lakawoulh Hiwechk Fund",
+    "url": "https://www.transformative25.org/project/gouts-lakawoulh-hiwechk-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "indigenous",
+      "native american",
+      "wiyot tribe",
+      "place-based",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Grassroots Finance Action",
+    "url": "https://www.grassrootsfinanceaction.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "community finance",
+      "grassroots",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Groundcovered",
+    "url": "https://www.groundcover.us/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "regenerative",
+      "place-based",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Haske Ventures",
+    "url": "https://www.transformative25.org/project/haske-ventures/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2026
+    ],
+    "sector_tags": [
+      "indigenous finance",
+      "native american",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Hawaii Investment Ready",
+    "url": "https://hiready.net/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "indigenous",
+      "hawaii",
+      "place-based",
+      "food sovereignty",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ICA Fund",
+    "url": "https://www.ica.fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "worker cooperatives",
+      "employee ownership",
+      "job quality",
+      "california"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Ignite Capital",
+    "url": "https://ignitecapital.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "racial equity",
+      "economic mobility",
+      "financial inclusion",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Impact Shakers Ventures",
+    "url": "https://www.impactshakers.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "social enterprise",
+      "impact investing",
+      "diverse founders"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "IMPAQTO Capital",
+    "url": "https://www.transformative25.org/project/impaqto-capital/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "social enterprise",
+      "latin america",
+      "ecuador",
+      "revenue-based finance",
+      "sme"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Indigenous Power and Light Fund",
+    "url": "https://www.indigenouspowerandlight.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "indigenous",
+      "clean energy",
+      "energy sovereignty",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "IndigiDAO Fund",
+    "url": "https://www.transformative25.org/project/indigidao-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "indigenous",
+      "web3",
+      "dao",
+      "community finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Infinity Point CDFI & Local Ownership Catalyst Fund",
+    "url": "https://www.transformative25.org/project/infinity-point-cdfi-local-ownership-catalyst-fund-locf/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "cooperative",
+      "community ownership",
+      "cdfi",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Invest Appalachia",
+    "url": "https://www.transformative25.org/project/invest-appalachia/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "place-based",
+      "appalachia",
+      "community development",
+      "climate",
+      "food systems"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Justice Capital",
+    "url": "https://www.justice.capital/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "criminal justice",
+      "economic mobility",
+      "venture capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Justice Funders",
+    "url": "https://justicefunders.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "philanthropy",
+      "social movements",
+      "community finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kachuwa Impact",
+    "url": "https://www.kachuwaimpactfund.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "energy",
+      "financial inclusion",
+      "real estate",
+      "cooperative",
+      "democratic ownership"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kensington Corridor Trust",
+    "url": "https://kctphilly.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "community real estate",
+      "place-based",
+      "racial equity",
+      "philadelphia"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Latino Support Network",
+    "url": "https://www.latinosupportnetwork.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "latino",
+      "racial equity",
+      "small business",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "LUNAR Fund",
+    "url": "https://www.transformative25.org/project/lunar-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "asian american",
+      "racial equity",
+      "financial inclusion",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Michigan Good Food Fund",
+    "url": "https://migoodfoodfund.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "regional food",
+      "patient capital",
+      "michigan",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Midwest Farmers of Color Collective",
+    "url": "https://midwestfarmersofcolor.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "bipoc farmers",
+      "racial equity",
+      "midwest",
+      "agroecology"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mission Driven Finance",
+    "url": "https://www.missiondrivenfinance.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "community development",
+      "job creation",
+      "health",
+      "small business",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mitra BUMMA",
+    "url": "https://www.mitrabumma.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "indigenous",
+      "indonesia",
+      "food systems",
+      "land sovereignty",
+      "place-based",
+      "ecological returns"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Moonsoon Fund",
+    "url": "https://roanhorseconsulting.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "indigenous",
+      "native american",
+      "community development",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Native Community Capital",
+    "url": "https://www.transformative25.org/project/native-community-capital-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "native american",
+      "indigenous",
+      "community development",
+      "cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Native Women Lead",
+    "url": "https://www.nativewomenlead.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "indigenous",
+      "native women",
+      "economic development",
+      "entrepreneurship"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Navajo Power",
+    "url": "https://www.navajopower.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "indigenous",
+      "clean energy",
+      "navajo nation",
+      "energy sovereignty"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "NDN Fund",
+    "url": "https://ndncollective.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "indigenous",
+      "native american",
+      "community development",
+      "climate",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "NESsT Enterprise Fund",
+    "url": "https://www.nesst.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "job creation",
+      "indigenous peoples",
+      "impact lending"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "New Majority Capital",
+    "url": "https://newmajoritycapital.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "small business acquisition",
+      "economic mobility",
+      "diverse entrepreneurs"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "New Majority Capital Fund I LP",
+    "url": "https://newmajoritycapital.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "racial equity",
+      "small business acquisition",
+      "economic mobility",
+      "diverse entrepreneurs"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Neycha Accelerator Fund",
+    "url": "https://neychaaccelerator.co/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "agroecology",
+      "east africa",
+      "enterprise accelerator",
+      "smallholder agriculture"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Northern Forest Center",
+    "url": "https://www.transformative25.org/project/northern-forest-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "forestry",
+      "conservation",
+      "place-based",
+      "new england"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ONAC Fund",
+    "url": "https://www.transformative25.org/project/onac-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "indigenous",
+      "native american",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Orchid Capital Collective",
+    "url": "https://www.orchidcapital.fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "gender lens",
+      "social enterprise",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Our Neighborhoods Capital Fund",
+    "url": "https://www.nationalcapacd.org/our-neighborhoods-capital-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "community development",
+      "racial equity",
+      "place-based",
+      "affordable housing"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Oweesta Corporation",
+    "url": "https://www.transformative25.org/project/oweesta-corporation/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021,
+      2025
+    ],
+    "sector_tags": [
+      "indigenous finance",
+      "native american",
+      "cdfi",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Peoples Solar Energy Fund",
+    "url": "https://psef.network/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "clean energy",
+      "community solar",
+      "racial equity",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Perennial Fund",
+    "url": "https://www.transformative25.org/project/perennial-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "regenerative",
+      "place-based",
+      "northeast us"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Potlikker Capital Fund",
+    "url": "https://www.transformative25.org/project/potlikker-capital-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "southern us",
+      "black farmers",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Proofing Station",
+    "url": "https://proofingstation.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "food systems",
+      "food enterprise",
+      "racial equity",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "R.I.S.E. Artisan Fund",
+    "url": "https://www.transformative25.org/project/r-i-s-e-artisan-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "artisan",
+      "craft",
+      "economic inclusion",
+      "gender lens",
+      "global south"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Radix Innovation Capital",
+    "url": "https://www.radixinnovation.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "social enterprise",
+      "racial equity",
+      "venture capital",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Raven Indigenous Capital Partners",
+    "url": "https://www.transformative25.org/project/raven-indigenous-capital-partners/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "indigenous",
+      "first nations",
+      "canada",
+      "private equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Raven Indigenous Outcomes Fund",
+    "url": "https://www.transformative25.org/project/raven-indigenous-outcomes-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "indigenous",
+      "first nations",
+      "canada",
+      "outcomes-based finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Real People's Fund",
+    "url": "https://realpeoplesfund.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024,
+      2025
+    ],
+    "sector_tags": [
+      "racial equity",
+      "community development",
+      "place-based",
+      "financial inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Reinventure Capital Fund I",
+    "url": "https://www.transformative25.org/project/reinventure-capital-fund-i/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "racial equity",
+      "gender lens",
+      "venture capital",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Revolve Fund",
+    "url": "https://revolvefund.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024,
+      2025
+    ],
+    "sector_tags": [
+      "community development",
+      "place-based",
+      "financial inclusion",
+      "racial equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Right to the City",
+    "url": "https://www.righttothecity.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "housing justice",
+      "racial equity",
+      "community organizing"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Right to the City Integrated Loan Fund",
+    "url": "https://www.transformative25.org/project/right-to-the-city-integrated-loan-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "housing justice",
+      "community development",
+      "racial equity",
+      "integrated capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Rooted Relative Fund",
+    "url": "https://www.rcac.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "rural communities",
+      "place-based",
+      "financial inclusion",
+      "community development"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Runway Rooted Fund",
+    "url": "https://www.rootedfund.family/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "racial equity",
+      "black entrepreneurs",
+      "early stage",
+      "character-based lending"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Seacoast Trust",
+    "url": "https://www.seacoasttrust.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "indigenous",
+      "tlingit haida tsimshian",
+      "place-based",
+      "regenerative economy",
+      "native cdfi"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Shared Interest Fund",
+    "url": "https://www.shared-interest.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "smallholder agriculture",
+      "fair trade",
+      "cooperative finance",
+      "africa",
+      "latin america",
+      "guarantee fund"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Shona",
+    "url": "https://shona.co/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "east africa",
+      "sme",
+      "business advisory",
+      "neycha co-manager"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Sunwealth Solar Impact Fund",
+    "url": "https://www.sunwealth.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "clean energy",
+      "community solar",
+      "climate",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Thrive Impact Fund",
+    "url": "https://www.transformative25.org/project/thrive-impact-fund-2/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "racial equity",
+      "community development",
+      "place-based"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Total Impact Notes",
+    "url": "https://www.totalimpactcapital.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2025
+    ],
+    "sector_tags": [
+      "catalytic capital",
+      "community development",
+      "financial inclusion",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Vest Her",
+    "url": "https://www.vesther.co/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "gender lens",
+      "women entrepreneurs",
+      "emerging markets",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Viwala",
+    "url": "https://www.viwala.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2023
+    ],
+    "sector_tags": [
+      "gender lens",
+      "financial inclusion",
+      "natural resources",
+      "sme",
+      "mexico"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Walden Mutual Bank",
+    "url": "https://www.waldenmutualmortgage.com/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2022
+    ],
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "cooperative banking",
+      "new england",
+      "community finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "WCCN Investing for Social Change",
+    "url": "https://www.wccn.org/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2024
+    ],
+    "sector_tags": [
+      "microfinance",
+      "financial inclusion",
+      "latin america",
+      "women",
+      "rural communities"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "The Women's Capital Collaborative Fund",
+    "url": "https://www.transformative25.org/project/the-womens-capital-collaborative-fund/",
+    "source": [
+      "T25"
+    ],
+    "source_years": [
+      2021
+    ],
+    "sector_tags": [
+      "gender lens",
+      "women entrepreneurs",
+      "economic inclusion"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Alterfin",
+    "url": "https://www.alterfin.be/en",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "fair trade",
+      "cooperative finance",
+      "global south",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Member"
+  },
+  {
+    "name": "Oikocredit",
+    "url": "https://www.oikocredit.coop/en/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "cooperative finance",
+      "fair trade",
+      "organic farming",
+      "financial inclusion",
+      "global"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Member"
+  },
+  {
+    "name": "Rabo Rural Fund",
+    "url": "https://www.rabobank.com/about-us/rabo-rural-fund",
+    "source": [
+      "CSAF",
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "agricultural lending",
+      "food systems",
+      "producer organizations",
+      "global"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Member"
+  },
+  {
+    "name": "Shared Interest",
+    "url": "https://www.shared-interest.com/en",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "fair trade",
+      "cooperative finance",
+      "africa",
+      "latin america",
+      "guarantee fund"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Member"
+  },
+  {
+    "name": "Triodos Investment Management",
+    "url": "https://www.triodos-im.com/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "organic farming",
+      "sustainable food",
+      "agriculture",
+      "energy",
+      "financial inclusion",
+      "europe"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Member"
+  },
+  {
+    "name": "ABC Fund / Common Fund for Commodities",
+    "url": "https://www.common-fund.org/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "commodity agriculture",
+      "smallholder farmers",
+      "development finance",
+      "africa asia latin america"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Affiliate"
+  },
+  {
+    "name": "CFC / Common Fund for Commodities",
+    "url": "https://www.common-fund.org/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "commodity agriculture",
+      "smallholder farmers",
+      "development finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Affiliate"
+  },
+  {
+    "name": "IDH Sustainable Trade Initiative",
+    "url": "https://www.idhsustainabletrade.com/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sustainable supply chains",
+      "smallholder agriculture",
+      "food systems",
+      "fair trade"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Affiliate"
+  },
+  {
+    "name": "Kampani / Agri-Business Capital Fund",
+    "url": "https://agri-business-capital.com/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "cooperative finance",
+      "equity",
+      "producer organizations",
+      "global south"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Affiliate"
+  },
+  {
+    "name": "SIDI",
+    "url": "https://www.sidi.fr/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "solidarity finance",
+      "smallholder agriculture",
+      "microfinance",
+      "cooperative lending",
+      "global south"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Global Affiliate"
+  },
+  {
+    "name": "AgDevCo",
+    "url": "https://www.agdevco.com/",
+    "source": [
+      "CSAF",
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "food systems",
+      "sub-saharan africa",
+      "patient capital",
+      "agribusiness"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Regional Affiliate"
+  },
+  {
+    "name": "Ecotierra",
+    "url": "https://www.ecotierra.co/",
+    "source": [
+      "CSAF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroforestry",
+      "sustainable land use",
+      "carbon",
+      "latin america",
+      "smallholder farmers"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "CSAF Regional Affiliate"
+  },
+  {
+    "name": "FAPY — Fondo Agroecológico para la Península de Yucatán",
+    "url": "https://www.facebook.com/proyectosfapy",
+    "source": [
+      "AEF-network"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroecology",
+      "mayan communities",
+      "yucatan",
+      "mexico",
+      "grant-based",
+      "food sovereignty",
+      "regional fund"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "First regional fund seeded by Agroecology Fund, est. 2020. Grant-based vehicle operated by Túumben K'óoben Cooperative. Capital deployment mechanism differs from active directory funds."
+  },
+  {
+    "name": "Bharat Agroecology Fund (BAF)",
+    "url": "https://bharatagroecologyfund.org/",
+    "source": [
+      "AEF-network"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroecology",
+      "india",
+      "smallholder farmers",
+      "regional fund",
+      "grant-based",
+      "food systems transition"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "India regional fund est. 2022, hosted by Bharathiya Vikas Trust. Targets 20M smallholders transitioning to agroecology by 2030. Primarily philanthropic/grant capital."
+  },
+  {
+    "name": "Regional Agroecology Fund — West Africa",
+    "url": "https://agroecologyfund.org/wp-content/uploads/2026/04/RegionalFunds_WestEasternAfrica_Brochure_2026_updated_final.pdf",
+    "source": [
+      "AEF-network"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroecology",
+      "west africa",
+      "regional fund",
+      "incubation stage",
+      "grassroots",
+      "food sovereignty"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "Incubation stage. Seeded by Agroecology Fund, hosted by TrustAfrica. Supports grassroots agroecology networks and Indigenous/women-led orgs. Not yet a formal investment vehicle."
+  },
+  {
+    "name": "Regional Agroecology Fund — East Africa",
+    "url": "https://agroecologyfund.org/wp-content/uploads/2026/04/RegionalFunds_WestEasternAfrica_Brochure_2026_updated_final.pdf",
+    "source": [
+      "AEF-network"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroecology",
+      "east africa",
+      "regional fund",
+      "incubation stage",
+      "grassroots",
+      "food sovereignty"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "Incubation stage. Seeded by Agroecology Fund, hosted by TrustAfrica. Supports networks and Indigenous/women-led orgs. Not yet a formal investment vehicle."
+  },
+  {
+    "name": "Northern Cooperative Development Bank (NCDB)",
+    "url": "https://agroecologyfund.org/how-to-finance-an-agroecology-transition-innovations-in-accessible-and-affordable-credit-systems-for-grassroots-led-enterprises/",
+    "source": [
+      "AEF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "cooperative banking",
+      "sri lanka",
+      "agroecology",
+      "revolving loan fund",
+      "food systems",
+      "smallholder farmers"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "Federation of 1,200 rural cooperatives operating as a development bank in post-civil war northern Sri Lanka. Revolving loan fund lent $1.3M of $1.68M fund to cooperative members in 2023. Not a traditional investment fund; grassroots cooperative credit model."
+  },
+  {
+    "name": "CNOP-CAM Revolving Fund",
+    "url": "https://cnopcam.org/",
+    "source": [
+      "AEF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "cooperative lending",
+      "cameroon",
+      "agroecology",
+      "women farmers",
+      "revolving fund",
+      "food sovereignty"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "Revolving fund operated by Concertation Nationale des Organisations Paysannes au Cameroun (CNOP-CAM). Low-interest loans to women farmers practicing agroecology. Supported by Agroecology Fund grantmaking. Grassroots credit model, not a formal investment vehicle."
+  },
+  {
+    "name": "GRABE Benin Community Savings Fund (Caisses Communautaires)",
+    "url": "https://grabebenin.org/",
+    "source": [
+      "AEF"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "community savings",
+      "benin",
+      "women farmers",
+      "agroecology",
+      "self-managed",
+      "food sovereignty"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": "Self-managed community savings system for rural women farmers in Benin, operated by GRABE Benin. Weekly pooling of resources with low-interest loans for farm enterprises. Not a formal investment fund."
+  },
+  {
+    "name": "Acumen Resilience Agriculture Fund",
+    "url": "https://arafund.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "climate resilience",
+      "food systems",
+      "east africa",
+      "early stage",
+      "equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Balloon Ventures",
+    "url": "https://balloonventures.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "job creation",
+      "east africa",
+      "kenya uganda",
+      "debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Climate Smart Food Systems Fund",
+    "url": "https://www.responsability.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "climate",
+      "smallholder farmers",
+      "east africa",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Fairtrade Access Fund",
+    "url": "https://incofinfaf.com",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "fair trade",
+      "food systems",
+      "latin america",
+      "africa",
+      "agricultural lending"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Grounded Investment Company BV",
+    "url": "https://grounded.co.za/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "regenerative agriculture",
+      "food systems",
+      "africa",
+      "value chain",
+      "permanent capital"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Jenga Capital",
+    "url": "https://www.jengacapital.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "east africa",
+      "kenya",
+      "food security",
+      "debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kampani",
+    "url": "https://www.kampani.org/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "cooperative finance",
+      "equity",
+      "producer organizations",
+      "global south"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Kenya Climate Ventures",
+    "url": "https://kcv.co.ke",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate",
+      "agriculture",
+      "water",
+      "forestry",
+      "kenya",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Landscape Resilience Fund",
+    "url": "https://landscaperesiliencefund.org",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "smallholder agriculture",
+      "climate adaptation",
+      "forestry",
+      "blended finance",
+      "landscape approach"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Moringa Fund",
+    "url": "https://www.moringapartnership.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroforestry",
+      "latin america",
+      "sub-saharan africa",
+      "equity",
+      "environmental impact"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "OVO Acceleration Fund",
+    "url": "https://ondernemersvoorondernemers.be/en/projects/ovo-acceleration-fund",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "africa",
+      "social enterprise",
+      "belgium",
+      "affordable loans"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Rural Livelihood Investment Facility",
+    "url": "https://en.heks.ch/medien/hekseper-and-igravity-announce-successful-launch-rural-livelihoods-investment-window",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agroecology",
+      "smallholder agriculture",
+      "rural livelihoods",
+      "sub-saharan africa",
+      "uganda senegal",
+      "private debt"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SABI Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "regenerative agriculture",
+      "food systems",
+      "gender lens",
+      "emerging markets",
+      "equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Satgana Fund 1",
+    "url": "https://www.satgana.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "climate tech",
+      "food systems",
+      "agriculture",
+      "regenerative agriculture",
+      "alternative proteins",
+      "circular economy",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Segal Family Foundation",
+    "url": "https://www.segalfamilyfoundation.org/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "social enterprise",
+      "east africa",
+      "agriculture",
+      "early stage",
+      "debt equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SHONA Capital",
+    "url": "https://shona.co/shona-capital",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "east africa",
+      "food systems",
+      "agriculture",
+      "business advisory"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Truvalu",
+    "url": "https://truvalu-group.com",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "emerging markets",
+      "agribusiness",
+      "value chain",
+      "equity"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Yield Fund",
+    "url": "https://site.pearlcapital.net",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "uganda",
+      "sme finance",
+      "equity",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "ABC Fund",
+    "url": "https://www.common-fund.org/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agricultural finance",
+      "smallholder farmers",
+      "development finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Acumen Capital Partners",
+    "url": "https://acumencapitalpartners.com/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "energy",
+      "poverty reduction",
+      "blended finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Africa Agriculture and Trade Investment Fund (AATIF)",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "africa",
+      "trade finance",
+      "smallholder farmers"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "AlphaJiri Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "sme",
+      "smallholder farmers"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "FCA Investments",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Good Food Innovation Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "agriculture",
+      "innovation",
+      "east africa"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Goodwell Investments",
+    "url": "https://www.goodwell.nl/",
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "financial inclusion",
+      "emerging markets",
+      "early stage",
+      "basic goods services"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Grassroots Business Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "agriculture",
+      "africa",
+      "emerging markets"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Heifer Impact Capital",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "livestock",
+      "agriculture",
+      "smallholder farmers",
+      "africa asia latin america"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Hiinga",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Inua Capital",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "smallholder farmers",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Iungo Capital",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "sme finance",
+      "trade finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "KASI Agriventures Program",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agritech",
+      "agriculture",
+      "east africa",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Mango Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "sme finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Nature+ Accelerator Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "nature-based solutions",
+      "agriculture",
+      "biodiversity",
+      "east africa"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Nutritious Foods Financing (N3F)",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "food systems",
+      "nutrition",
+      "agriculture",
+      "africa",
+      "development finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Opes Impact Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "agriculture",
+      "east africa",
+      "sme finance",
+      "early stage"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Organic Development Finance",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "organic farming",
+      "agriculture",
+      "east africa",
+      "development finance"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "SME Impact Fund",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "agriculture",
+      "east africa"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Social Enterprise Fund for Agriculture in Africa",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "social enterprise",
+      "agriculture",
+      "africa",
+      "smallholder farmers"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Uncapped",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "sme finance",
+      "revenue-based finance",
+      "africa"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Women's Livelihood Bonds",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "gender lens",
+      "women",
+      "financial inclusion",
+      "asia",
+      "bond"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  },
+  {
+    "name": "Yunus Social Business",
+    "url": null,
+    "source": [
+      "TIFS"
+    ],
+    "source_years": null,
+    "sector_tags": [
+      "social business",
+      "poverty reduction",
+      "microenterprise",
+      "global south"
+    ],
+    "agroecology": false,
+    "status": "candidate",
+    "notes": ""
+  }
+]
