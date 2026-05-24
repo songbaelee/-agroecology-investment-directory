@@ -116,6 +116,20 @@
     .source-link:hover { color: var(--bark); }
     .verified-date { font-size: 0.72rem; color: var(--muted); }
 
+
+    /* 2x2 SCATTER */
+    .scatter-section { max-width: 1100px; margin: 2.5rem auto 0; padding: 0 2rem; }
+    .scatter-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--soil); margin-bottom: 0.3rem; }
+    .scatter-subtitle { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem; max-width: 560px; line-height: 1.55; }
+    .scatter-wrap { position: relative; display: inline-block; }
+    .scatter-tooltip {
+      position: fixed; pointer-events: none; opacity: 0; transition: opacity 0.15s;
+      background: var(--soil); color: var(--cream); border-radius: 6px;
+      padding: 0.55rem 0.85rem; font-size: 0.8rem; max-width: 240px;
+      line-height: 1.5; z-index: 200; box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    }
+    .scatter-tooltip strong { display: block; font-size: 0.85rem; margin-bottom: 0.2rem; color: var(--straw); }
+
     footer { background: var(--soil); color: var(--straw); text-align: center; padding: 1.5rem; font-size: 0.82rem; }
     footer a { color: var(--sage); text-decoration: none; }
 
@@ -155,6 +169,117 @@
     <p>Funds are included if any part of their portfolio follows agroecological principles — explicit mandates, aligned strategies, or adjacent practices. This directory covers vehicles where capital is deployed as investment, loans, or equity — not grants or philanthropy. This is a learning resource, not investment advice.</p>
   </div>
 </div>
+
+<div class="scatter-section">
+  <div class="scatter-title">Six funds mapped</div>
+  <div class="scatter-subtitle">X-axis: agroecology explicitness — from aligned/implicit to explicit mandate. Y-axis: capital proximity to producer — from intermediated lending to direct producer governance.</div>
+  <div class="scatter-wrap">
+    <svg id="scatter-svg" width="620" height="480" viewBox="0 0 620 480" xmlns="http://www.w3.org/2000/svg"
+         style="font-family:'Source Sans 3',sans-serif; overflow:visible;">
+
+      <!-- background quadrants -->
+      <rect x="60" y="30" width="260" height="200" fill="#F8F6F0" rx="2"/>
+      <rect x="320" y="30" width="260" height="200" fill="#F2F7F0" rx="2"/>
+      <rect x="60" y="230" width="260" height="200" fill="#F8F6F0" rx="2"/>
+      <rect x="320" y="230" width="260" height="200" fill="#F2F7F0" rx="2"/>
+
+      <!-- quadrant labels -->
+      <text x="75" y="50" font-size="10" fill="#B0A090" font-style="italic">Producer-governed, implicit mandate</text>
+      <text x="335" y="50" font-size="10" fill="#7A9E6F" font-style="italic">Producer-governed, explicit mandate</text>
+      <text x="75" y="418" font-size="10" fill="#B0A090" font-style="italic">Intermediated, implicit mandate</text>
+      <text x="335" y="418" font-size="10" fill="#7A9E6F" font-style="italic">Intermediated, explicit mandate</text>
+
+      <!-- axes -->
+      <!-- x axis -->
+      <line x1="60" y1="230" x2="580" y2="230" stroke="#D4C4A0" stroke-width="1.5"/>
+      <!-- y axis -->
+      <line x1="320" y1="30" x2="320" y2="430" stroke="#D4C4A0" stroke-width="1.5"/>
+
+      <!-- axis arrow heads -->
+      <polygon points="580,226 588,230 580,234" fill="#D4C4A0"/>
+      <polygon points="316,30 320,22 324,30" fill="#D4C4A0"/>
+
+      <!-- x axis label -->
+      <text x="580" y="248" font-size="11" fill="#7A6A55" text-anchor="end">Explicit mandate →</text>
+      <text x="62" y="248" font-size="11" fill="#7A6A55">← Implicit / aligned</text>
+
+      <!-- y axis label -->
+      <text x="318" y="20" font-size="11" fill="#7A6A55" text-anchor="middle">← Direct / producer-governed</text>
+      <text x="318" y="447" font-size="11" fill="#7A6A55" text-anchor="middle">Intermediated →</text>
+
+      <!-- origin tick marks -->
+      <line x1="60" y1="227" x2="60" y2="233" stroke="#D4C4A0" stroke-width="1"/>
+      <line x1="580" y1="227" x2="580" y2="233" stroke="#D4C4A0" stroke-width="1"/>
+      <line x1="317" y1="30" x2="323" y2="30" stroke="#D4C4A0" stroke-width="1"/>
+      <line x1="317" y1="430" x2="323" y2="430" stroke="#D4C4A0" stroke-width="1"/>
+
+      <!--
+        Coordinate mapping:
+        X: explicitness 1-10 → svg x: 60 + (val-1)/9 * 520
+        Y: proximity 1-10 → svg y: 430 - (val-1)/9 * 400
+          (high proximity = low y = top of chart)
+
+        Pachamama:   explicitness=3, proximity=9  → x=233, y=74
+        FINAPOP:     explicitness=8, proximity=8  → x=522, y=119
+        Reciprocity: explicitness=4, proximity=4  → x=291, y=296  (moved slightly from axis)
+        Barka:       explicitness=7, proximity=5  → x=464, y=252  (moved slightly from axis)
+        NESsT:       explicitness=6, proximity=3  → x=406, y=341
+        Neycha:      explicitness=9, proximity=4  → x=522, y=296  (avoid overlap w Barka)
+      -->
+
+      <!-- PACHAMAMA -->
+      <g class="fund-dot" data-name="Pachamama Coffee Cooperative"
+         data-note="Farmer-owned cooperative: highest producer governance of the six. Coffee mandate is implicit on agroecology — farmers practice it but the fund doesn't screen for it."
+         transform="translate(233,74)">
+        <circle r="11" fill="#C17F2A" opacity="0.85" stroke="white" stroke-width="2" style="cursor:pointer"/>
+        <text y="-16" font-size="10.5" fill="#5C3D1E" text-anchor="middle" font-weight="600">Pachamama</text>
+      </g>
+
+      <!-- FINAPOP -->
+      <g class="fund-dot" data-name="FINAPOP"
+         data-note="Cooperative-governed fund open to any Brazilian citizen. Explicit agroecology transition mandate embedded in its founding purpose. Farmers govern through cooperative structures."
+         transform="translate(522,119)">
+        <circle r="11" fill="#4A6741" opacity="0.9" stroke="white" stroke-width="2" style="cursor:pointer"/>
+        <text y="-16" font-size="10.5" fill="#2C1A0E" text-anchor="middle" font-weight="600">FINAPOP</text>
+      </g>
+
+      <!-- RECIPROCITY -->
+      <g class="fund-dot" data-name="The Reciprocity Fund"
+         data-note="Lends to Indigenous agriculture and agroforestry cooperatives. Mandate is Indigenous-led and non-extractive — agroecology is embedded in practice rather than explicit in the thesis."
+         transform="translate(291,307)">
+        <circle r="11" fill="#7A9E6F" opacity="0.85" stroke="white" stroke-width="2" style="cursor:pointer"/>
+        <text y="-16" font-size="10.5" fill="#2C1A0E" text-anchor="middle" font-weight="600">Reciprocity</text>
+      </g>
+
+      <!-- BARKA -->
+      <g class="fund-dot" data-name="Barka Fund"
+         data-note="West Africa cooperative lending fund with explicit agroecology and food sovereignty mandate. Lends to cooperatives rather than individual farmers — one step from direct producer governance."
+         transform="translate(464,263)">
+        <circle r="11" fill="#4A6741" opacity="0.85" stroke="white" stroke-width="2" style="cursor:pointer"/>
+        <text y="-16" font-size="10.5" fill="#2C1A0E" text-anchor="middle" font-weight="600">Barka</text>
+      </g>
+
+      <!-- NESST -->
+      <g class="fund-dot" data-name="NESsT Lirio Fund"
+         data-note="Explicit food systems and dignified livelihoods mandate. Lends to enterprises that employ smallholder farmers — impact reaches producers through an intermediary enterprise layer."
+         transform="translate(406,341)">
+        <circle r="11" fill="#7A9E6F" opacity="0.85" stroke="white" stroke-width="2" style="cursor:pointer"/>
+        <text y="-16" font-size="10.5" fill="#2C1A0E" text-anchor="middle" font-weight="600">NESsT Lirio</text>
+      </g>
+
+      <!-- NEYCHA -->
+      <g class="fund-dot" data-name="Neycha Accelerator & Fund"
+         data-note="Most explicit agroecology mandate of the six — uses B-ACT screening against all 13 HLPE principles. Works with individual enterprises through an accelerator model rather than cooperative structures."
+         transform="translate(551,307)">
+        <circle r="11" fill="#2C1A0E" opacity="0.9" stroke="white" stroke-width="2" style="cursor:pointer"/>
+        <text y="-16" font-size="10.5" fill="#2C1A0E" text-anchor="middle" font-weight="600">Neycha</text>
+      </g>
+
+    </svg>
+  </div>
+  <div class="scatter-tooltip" id="scatter-tip"></div>
+</div>
+
 
 <div class="view-bar">
   <span class="count-badge" id="visible-count"></span>
@@ -415,6 +540,26 @@
     const open = el.classList.toggle('open');
     btn.textContent = open ? 'Hide portfolio & governance ↑' : 'Show portfolio & governance ↓';
   }
+
+  // ── scatter tooltip ───────────────────────────────────────────────────────
+  const tip = document.getElementById('scatter-tip');
+  document.querySelectorAll('.fund-dot').forEach(dot => {
+    dot.addEventListener('mouseenter', e => {
+      const name = dot.dataset.name;
+      const note = dot.dataset.note;
+      tip.innerHTML = `<strong>${name}</strong>${note}`;
+      tip.style.opacity = '1';
+    });
+    dot.addEventListener('mousemove', e => {
+      const x = e.clientX + 14;
+      const y = e.clientY - 10;
+      tip.style.left = Math.min(x, window.innerWidth - 260) + 'px';
+      tip.style.top  = y + 'px';
+    });
+    dot.addEventListener('mouseleave', () => {
+      tip.style.opacity = '0';
+    });
+  });
 
   fetch('funds.json')
     .then(r => r.json())
