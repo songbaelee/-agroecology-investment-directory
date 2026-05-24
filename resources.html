@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources — Agroecology Investment Directory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --soil: #2C1A0E;
+      --bark: #5C3D1E;
+      --moss: #4A6741;
+      --sage: #7A9E6F;
+      --straw: #E8D9B0;
+      --cream: #F5F0E8;
+      --light: #FDFAF5;
+      --accent: #C17F2A;
+      --text: #1E1208;
+      --muted: #7A6A55;
+      --border: #D4C4A0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Source Sans 3', sans-serif; background: var(--light); color: var(--text); font-size: 16px; line-height: 1.6; }
+
+    header { background: var(--soil); color: var(--cream); padding: 3rem 2rem 2.5rem; border-bottom: 4px solid var(--accent); }
+    .header-inner { max-width: 1000px; margin: 0 auto; }
+    .site-label { font-weight: 600; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--sage); margin-bottom: 0.5rem; }
+    .site-label a { color: var(--sage); text-decoration: none; border-bottom: 1px solid rgba(122,158,111,0.4); }
+    .site-label a:hover { color: var(--straw); }
+    header h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 600; color: var(--cream); margin-bottom: 0.75rem; line-height: 1.2; }
+    header p { font-size: 1rem; color: var(--straw); max-width: 640px; font-weight: 300; }
+
+    .about-bar { background: var(--moss); color: var(--cream); padding: 1.1rem 2rem; }
+    .about-inner { max-width: 1000px; margin: 0 auto; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+    .about-inner strong { font-size: 0.78rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--straw); flex-shrink: 0; padding-top: 0.15rem; }
+    .about-inner p { font-size: 0.88rem; color: rgba(255,255,255,0.85); font-weight: 300; }
+
+    .page { max-width: 1000px; margin: 0 auto; padding: 2.5rem 2rem 5rem; }
+
+    /* TOOLS COMPARISON TABLE */
+    .tools-section { margin-bottom: 3rem; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--soil); margin-bottom: 0.4rem; }
+    .section-subtitle { font-size: 0.88rem; color: var(--muted); margin-bottom: 1.5rem; max-width: 680px; line-height: 1.55; }
+
+    .tools-table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+    .tools-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+    .tools-table th { background: var(--soil); color: var(--cream); padding: 0.6rem 0.85rem; text-align: left; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+    .tools-table td { padding: 0.65rem 0.85rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .tools-table tr:nth-child(even) td { background: var(--cream); }
+    .tools-table tr:hover td { background: #EEF5EC; }
+    .tools-table .tool-name { font-weight: 600; color: var(--bark); white-space: nowrap; }
+    .tools-table a { color: var(--moss); text-decoration: none; border-bottom: 1px solid var(--sage); font-size: 0.78rem; }
+    .tools-table a:hover { color: var(--bark); }
+    .level-pill { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 4px; white-space: nowrap; }
+    .level-foundational { background: #E8F5E1; color: #2D6A1F; border: 1px solid #A8D99A; }
+    .level-practitioner { background: #FFF4E0; color: #8A5A00; border: 1px solid #E8C87A; }
+    .level-specialist { background: #F0EEF8; color: #5A4A7A; border: 1px solid #C0B8DC; }
+    .shorthand-box { background: var(--cream); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 6px; padding: 0.85rem 1.1rem; font-size: 0.85rem; color: var(--bark); margin-top: 0.75rem; line-height: 1.6; }
+
+    /* RESOURCE GROUPS */
+    .resource-group { margin-bottom: 3.5rem; }
+    .group-header { border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem; display: flex; align-items: baseline; gap: 0.75rem; }
+    .group-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--soil); }
+    .group-count { font-size: 0.78rem; color: var(--muted); }
+
+    .resource-list { display: flex; flex-direction: column; gap: 1px; }
+
+    .resource-card { background: white; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 0.75rem; }
+    .resource-card.start-here { border-color: var(--sage); border-width: 2px; }
+
+    .resource-card-header { padding: 1rem 1.25rem 0.75rem; background: var(--cream); display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; }
+    .resource-card.start-here .resource-card-header { background: #EEF6EC; }
+
+    .resource-title-row { display: flex; align-items: flex-start; gap: 0.6rem; flex-wrap: wrap; flex: 1; }
+    .start-here-badge { flex-shrink: 0; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; background: var(--moss); color: white; padding: 0.2rem 0.55rem; border-radius: 4px; white-space: nowrap; margin-top: 0.1rem; }
+
+    .resource-card h3 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--soil); line-height: 1.3; }
+    .resource-card h3 a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--sage); }
+    .resource-card h3 a:hover { color: var(--moss); }
+
+    .resource-meta { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.5rem; }
+    .meta-tag { font-size: 0.72rem; padding: 0.18rem 0.55rem; border-radius: 10px; border: 1px solid var(--border); color: var(--muted); background: white; }
+    .meta-tag.org { color: var(--bark); border-color: #C8B8A0; background: #F8F2EA; }
+    .meta-tag.year { color: var(--muted); }
+
+    .resource-card-body { padding: 0.9rem 1.25rem 1rem; display: flex; flex-direction: column; gap: 0.6rem; }
+
+    .purpose-block { font-size: 0.87rem; color: var(--text); line-height: 1.6; }
+    .purpose-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 600; margin-bottom: 0.25rem; }
+
+    .description-block { font-size: 0.82rem; color: var(--muted); line-height: 1.6; border-top: 1px solid var(--border); padding-top: 0.6rem; }
+
+    .resource-footer { padding: 0.55rem 1.25rem; border-top: 1px solid var(--border); background: var(--cream); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.4rem; }
+    .visit-link { font-size: 0.78rem; color: var(--moss); text-decoration: none; border-bottom: 1px solid var(--sage); }
+    .visit-link:hover { color: var(--bark); }
+    .verified { font-size: 0.7rem; color: var(--muted); }
+
+    footer { background: var(--soil); color: var(--straw); text-align: center; padding: 1.5rem; font-size: 0.82rem; }
+    footer a { color: var(--sage); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .page { padding: 1.5rem 1rem 4rem; }
+      header { padding: 2rem 1rem; }
+      .tools-table { font-size: 0.78rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-label"><a href="index.html">← Agroecology Investment Directory</a></div>
+    <h1>Agroecology Resources</h1>
+    <p>Frameworks, reports, tools, and networks for understanding, assessing, and tracking agroecology-aligned investment. Specifically focused on agroecology — not regenerative agriculture broadly.</p>
+  </div>
+</header>
+
+<div class="about-bar">
+  <div class="about-inner">
+    <strong>How to use</strong>
+    <p>Resources are organized into three groups: Frameworks & Principles (what agroecology is), Research & Reports (the financing landscape), and Networks & Databases (living resources to return to). Within each group, entries run from most accessible to most specialist. "Start here" badges mark the most essential entries per group.</p>
+  </div>
+</div>
+
+<div class="page" id="page"></div>
+
+<footer>
+  <p>Agroecology Investment Directory &nbsp;&middot;&nbsp; <a href="index.html">← Back to Fund Directory</a> &nbsp;&middot;&nbsp; <a href="resources.json" download="agroecology-resources.json">Download resources data (JSON)</a></p>
+</footer>
+
+<script>
+  function esc(s) { return s ? String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : ''; }
+
+  const GROUP_META = {
+    frameworks: {
+      label: 'Frameworks & Principles',
+      description: 'What agroecology is and how it is defined. The foundational layer — read these first to understand the alignment criteria this directory uses.'
+    },
+    research: {
+      label: 'Research & Reports',
+      description: 'The financing landscape and how to evaluate it. Reports, guides, and tools for understanding why agroecology is underfunded and how to assess investment vehicles.'
+    },
+    tools: {
+      label: 'Tools',
+      description: 'Assessment tools for evaluating whether enterprises, farms, funds, or portfolios are genuinely agroecological. See the comparison table below for how they differ.'
+    },
+    networks: {
+      label: 'Networks & Databases',
+      description: 'Living resources and institutions to return to regularly — the people, organizations, and databases shaping the agroecology investment landscape.'
+    }
+  };
+
+  const LEVEL_CLASS = {
+    foundational: 'level-foundational',
+    practitioner: 'level-practitioner',
+    specialist: 'level-specialist'
+  };
+
+  function buildToolsTable(tools) {
+    const rows = tools.map(r => `
+      <tr>
+        <td><span class="tool-name">${esc(r.title.split(':')[0].split('(')[0].trim())}</span></td>
+        <td>${esc(r.author_organization.split('/')[0].trim())}</td>
+        <td style="max-width:180px;">${esc(r.description.split('.')[0] + '.')}</td>
+        <td style="max-width:160px;font-size:0.8rem;color:var(--muted);">${esc(r.purpose.split('.')[0].replace('Use this','').replace('when','When').trim() + '.')}</td>
+        <td><span class="level-pill ${LEVEL_CLASS[r.level] || ''}">${esc(r.level)}</span></td>
+        <td><a href="${esc(r.url)}" target="_blank">Visit →</a></td>
+      </tr>`).join('');
+
+    return `
+      <div class="tools-section">
+        <div class="section-title">Tools</div>
+        <p class="section-subtitle">Six distinct tools for assessing agroecology at different levels — enterprise, farm, programme, and portfolio. The table below shows how they differ so you can choose the right one for your purpose.</p>
+        <div class="tools-table-wrap">
+          <table class="tools-table">
+            <thead>
+              <tr>
+                <th>Tool</th>
+                <th>Built by</th>
+                <th>What it assesses</th>
+                <th>When to use it</th>
+                <th>Level</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+        <div class="shorthand-box">
+          <strong>Practical shorthand for fund investors:</strong> Use <strong>B-ACT</strong> to assess an individual enterprise you are considering investing in. Use the <strong>Agroecology Coalition Finance Tool</strong> to assess whether a fund's overall portfolio genuinely supports agroecological transformation. Use <strong>ACE</strong> for a fast first-pass screen before committing to a full B-ACT.
+        </div>
+      </div>`;
+  }
+
+  function buildResourceCard(r) {
+    const isStartHere = r.recommended_first;
+    return `
+    <div class="resource-card${isStartHere ? ' start-here' : ''}">
+      <div class="resource-card-header">
+        <div style="flex:1;">
+          <div class="resource-title-row">
+            ${isStartHere ? `<span class="start-here-badge">Start here</span>` : ''}
+            <h3><a href="${esc(r.url)}" target="_blank">${esc(r.title)}</a></h3>
+          </div>
+          <div class="resource-meta">
+            <span class="meta-tag org">${esc(r.author_organization)}</span>
+            ${r.year ? `<span class="meta-tag year">${esc(r.year)}</span>` : ''}
+            <span class="level-pill ${LEVEL_CLASS[r.level] || ''}" style="font-size:0.68rem;">${esc(r.level)}</span>
+          </div>
+        </div>
+      </div>
+      <div class="resource-card-body">
+        <div class="purpose-block">
+          <div class="purpose-label">Why read this</div>
+          ${esc(r.purpose)}
+        </div>
+        <div class="description-block">${esc(r.description)}</div>
+      </div>
+      <div class="resource-footer">
+        <a class="visit-link" href="${esc(r.url)}" target="_blank">Visit resource →</a>
+        <span class="verified">Verified: ${esc(r.last_verified)}</span>
+      </div>
+    </div>`;
+  }
+
+  fetch('resources.json')
+    .then(r => r.json())
+    .then(resources => {
+      const page = document.getElementById('page');
+      const groups = ['frameworks', 'research', 'tools', 'networks'];
+
+      let html = '';
+      groups.forEach(group => {
+        const meta = GROUP_META[group];
+        const items = resources.filter(r => r.group === group);
+        if (!items.length) return;
+
+        // Tools group gets the comparison table first, then cards
+        if (group === 'tools') {
+          html += `<div class="resource-group">
+            <div class="group-header">
+              <span class="group-title">${esc(meta.label)}</span>
+              <span class="group-count">${items.length} resources</span>
+            </div>
+            <p class="section-subtitle" style="margin-bottom:1.5rem;">${esc(meta.description)}</p>
+            ${buildToolsTable(items)}
+            <p style="font-size:0.82rem;color:var(--muted);margin:1.5rem 0 1rem;">Full details on each tool:</p>
+            <div class="resource-list">${items.map(buildResourceCard).join('')}</div>
+          </div>`;
+        } else {
+          html += `<div class="resource-group">
+            <div class="group-header">
+              <span class="group-title">${esc(meta.label)}</span>
+              <span class="group-count">${items.length} resources</span>
+            </div>
+            <p class="section-subtitle" style="margin-bottom:1.5rem;">${esc(meta.description)}</p>
+            <div class="resource-list">${items.map(buildResourceCard).join('')}</div>
+          </div>`;
+        }
+      });
+
+      page.innerHTML = html;
+    })
+    .catch(err => {
+      document.getElementById('page').innerHTML = `<p style="color:var(--muted);padding:3rem 0;">Could not load resources.json. Make sure both files are in the same directory.<br><small>${err}</small></p>`;
+    });
+</script>
+</body>
+</html>
